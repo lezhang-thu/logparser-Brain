@@ -2,10 +2,10 @@
 
 ### Main Takeaways
 1. The original Brain involves two splits, i.e., `up_split` and `down_split`. We remove the `up_split` (as it actually never gets executed) and only keep the `down_split`.
-2. Only `tuple_vector` is kept for constructing the `TupleTree`, where each log is translated into a list of (frequency, token)'s.
+2. Only `tuple_vector` is kept for constructing the `TupleTree`, where each log is translated into a list of `(frequency, token)`'s.
 3. The official Brain repo departs from the paper. The ideas can be summarized into four steps:
     1. Group logs (pre-processed as lists of tokens) according to their lengths.
-    2. For a log within a specific group, conduct the translation: token >> (frequency, token), where frequency can be interpreted as *column* frequency if we view the group as a **matrix**.
+    2. For a log within a specific group, conduct the translation: `token` >> `(frequency, token)`, where frequency can be interpreted as *column* frequency if we view the group as a **matrix**.
     3. Construct a `TupleTree` for each group, where the next split criterion is the *longest common pattern* as illustrated in the paper.
     4. For other frequencies that are *not* the most common, recheck the number of distinct tokens within the corresponding column. If **the number** is no less than a threshold, then the tokens for this column are all interpreted as variables (i.e., NOT constant).
 
