@@ -50,4 +50,4 @@ If you use the code or benchmarking results in your publication, please kindly c
 + [**TSC'23**] Siyu Yu, Pinjia He, Ningjiang Chen, and Yifan Wu. [Brain: Log Parsing with Bidirectional Parallel Tree](https://ieeexplore.ieee.org/abstract/document/10109145), *IEEE Transactions on Service Computing*, 2023.
 + [**ICSE'19**] Jieming Zhu, Shilin He, Jinyang Liu, Pinjia He, Qi Xie, Zibin Zheng, Michael R. Lyu. [Tools and Benchmarks for Automated Log Parsing](https://arxiv.org/pdf/1811.03509.pdf). *International Conference on Software Engineering (ICSE)*, 2019.
 
-[brain][https://github.com/logpai/logparser/blob/main/logparser/Brain/Brain.py]
+[brain]: https://github.com/logpai/logparser/blob/main/logparser/Brain/Brain.py
