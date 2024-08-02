@@ -101,11 +101,6 @@ class LogParser:
             columns=["EventId", "EventTemplate", "Occurrences"],
         )
 
-    def preprocess(self, line):
-        for currentRex in self.rex:
-            line = re.sub(currentRex, "<*>", line)
-        return line
-
     def load_data(self):
         headers, regex = self.generate_logformat_regex(self.logformat)
         self.df_log = self.log_to_dataframe(
@@ -270,58 +265,3 @@ def exclude_digits(string):
     if len(digits) == 0:
         return False
     return len(digits) / len(string) >= 0.3
-
-
-class format_log:  # this part of code is from LogPai https://github.com/LogPai
-    def __init__(self, log_format, indir="./"):
-        self.path = indir
-        self.logName = None
-        self.df_log = None
-        self.log_format = log_format
-
-    def format(self, logName):
-        self.logName = logName
-
-        self.load_data()
-
-        return self.df_log
-
-    def generate_logformat_regex(self, logformat):
-        """Function to generate regular expression to split log messages"""
-        headers = []
-        splitters = re.split(r"(<[^<>]+>)", logformat)
-        regex = ""
-        for k in range(len(splitters)):
-            if k % 2 == 0:
-                splitter = re.sub(" +", "\\\s+", splitters[k])
-                regex += splitter
-            else:
-                header = splitters[k].strip("<").strip(">")
-                regex += "(?P<%s>.*?)" % header
-                headers.append(header)
-        regex = re.compile("^" + regex + "$")
-        return headers, regex
-
-    def log_to_dataframe(self, log_file, regex, headers, logformat):
-        """Function to transform log file to dataframe"""
-        log_messages = []
-        linecount = 0
-        with open(log_file, "r", encoding="UTF-8") as fin:
-            for line in fin.readlines():
-                try:
-                    match = regex.search(line.strip())
-                    message = [match.group(header) for header in headers]
-                    log_messages.append(message)
-                    linecount += 1
-                except Exception as e:
-                    print("[Warning] Skip line: " + line)
-        logdf = pd.DataFrame(log_messages, columns=headers)
-        logdf.insert(0, "LineId", None)
-        logdf["LineId"] = [i + 1 for i in range(linecount)]
-        return logdf
-
-    def load_data(self):
-        headers, regex = self.generate_logformat_regex(self.log_format)
-        self.df_log = self.log_to_dataframe(
-            os.path.join(self.path, self.logName), regex, headers,
-            self.log_format)
