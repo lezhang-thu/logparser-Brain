@@ -18,4 +18,6 @@ means `logIds` are all of the same gt group. Next,
 ```
 means it is also **complete**. So with the above two, "exactly the **same** group" holds.
 
+## Precision & recall
 
+Consider a specific group within the partition given by the parser. We then re-partition this specific group according to the gt. This results in a collection of subgroups. For each subgroup of size $k>2$, we increase `accurate_pairs` by $k \choose 2$.
