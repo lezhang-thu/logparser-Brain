@@ -8,4 +8,14 @@ The idea is that gt is a partition of logs, and the parser result is also a part
 
 ### Code
 
-`series_groundtruth_logId_valuecounts.size == 1` means `logIds` are all of the same gt group. Next, `logIds.size == series_groundtruth[series_groundtruth == groundtruth_eventId].size` means it is also **complete**. So with the above two, "exactly the **same** group" holds.
+```
+        if series_groundtruth_logId_valuecounts.size == 1:
+```
+means `logIds` are all of the same gt group. Next,
+```
+            if logIds.size == series_groundtruth[series_groundtruth ==
+                                                 groundtruth_eventId].size:
+```
+means it is also **complete**. So with the above two, "exactly the **same** group" holds.
+
+
