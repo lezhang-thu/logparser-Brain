@@ -5,7 +5,7 @@
 1. To merge the parsed results of Brain & LogPPT[^1], use 
 
 ```bash
-python merge.py result_Brain_2k result_LogPPT_2k result_brain-logpptA
+python merge.py result_Brain_2k result_LogPPT_2k result_brain-logppt
 ```
 
 2. For evaluation, run 
