@@ -1,0 +1,33 @@
+EventId,EventTemplate,Occurrences
+E0,"('Registered', 'signal', 'handlers', 'for', '[TERM,', 'HUP,', 'INT]')",1
+E1,"('Successfully', 'started', 'service', ""'sparkExecutorActorSystem'"", 'on', 'port', '<*>')",1
+E2,"('Successfully', 'started', 'service', '<*>', 'on', 'port', '<*>')",1
+E3,"('Starting', 'executor', 'ID', '<*>', 'on', 'host', 'mesos-slave-07')",1
+E4,"('Reading', 'broadcast', 'variable', '<*>', 'took', '<*>', 'ms')",37
+E5,"('File', 'Output', 'Committer', 'Algorithm', 'version', 'is', '<*>')",30
+E6,"('Changing', 'view', 'acls', 'to:', 'yarn,', 'curi')",2
+E7,"('Changing', 'modify', 'acls', 'to:', 'yarn,', 'curi')",2
+E8,"('MemoryStore', 'started', 'with', 'capacity', '<*>', '<*>')",1
+E9,"('Connecting', 'to', 'driver:', 'spark:', '<*>', '<*>')",1
+E10,"('Partition', '<*>', 'not', 'found,', 'computing', 'it')",75
+E11,"('Input', 'split:', 'hdfs:', '<*>', '9000/pjhe/logs/2kSOSP.log:', '<*>')",45
+E12,"('<*>', 'is', 'deprecated.', 'Instead,', 'use', '<*>')",5
+E13,"('SecurityManager:', 'authentication', 'disabled;', 'ui', 'acls', 'disabled;', 'users', 'with', 'view', 'permissions:', 'Set(yarn,', 'curi);', 'users', 'with', 'modify', 'permissions:', 'Set(yarn,', 'curi)')",2
+E14,"('Slf4jLogger', 'started')",1
+E15,"('<*>', 'Committed')",30
+E16,"('Starting', 'remoting')",1
+E17,"('Registered', 'BlockManager')",1
+E18,"('Remoting', 'started;', 'listening', 'on', 'addresses', ':', '[akka.tcp:', '//sparkExecutorActorSystem@mesos-slave-07:', '<*>')",1
+E19,"('Saved', 'output', 'of', 'task', '<*>', 'to', 'hdfs:', '<*>', '<*>')",30
+E20,"('Created', 'local', 'directory', 'at', '<*>')",1
+E21,"('Started', 'reading', 'broadcast', 'variable', '<*>')",37
+E22,"('Successfully', 'registered', 'with', 'driver')",1
+E23,"('Server', 'created', 'on', '<*>')",1
+E24,"('Trying', 'to', 'register', 'BlockManager')",1
+E25,"('Got', 'assigned', 'task', '<*>')",305
+E26,"('Found', 'block', '<*>', 'locally')",257
+E27,"('Running', 'task', '<*>', 'in', 'stage', '<*>', '(TID', '<*>')",305
+E28,"('Block', '<*>', 'stored', 'as', 'bytes', 'in', 'memory', '(estimated', 'size', '<*>', '<*>', 'free', '<*>', '<*>')",112
+E29,"('Block', '<*>', 'stored', 'as', 'values', 'in', 'memory', '(estimated', 'size', '<*>', '<*>', 'free', '<*>', '<*>')",37
+E30,"('Finished', 'task', '<*>', 'in', 'stage', '<*>', '(TID', '<*>', '<*>', 'bytes', 'result', 'sent', 'to', 'driver')",300
+E31,"('Times:', 'total', '=', '<*>', 'boot', '=', '<*>', 'init', '=', '<*>', 'finish', '=', '<*>')",375

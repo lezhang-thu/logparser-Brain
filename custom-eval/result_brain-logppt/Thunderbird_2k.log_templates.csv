@@ -1,0 +1,158 @@
+EventId,EventTemplate
+E0,session closed for user root
+E1,"synchronized to <*>, stratum <*>"
+E2,[ib_sm_sweep.c:<*>]: No topology change
+E3,kernel time sync disabled <*>
+E4,kernel time sync enabled <*>
+E5,Received SNMP packet(s) from <*>
+E6,HPET id: <*> base: <*>
+E7,<*>:USB HID core driver
+E8,<*> (Kernel Module GPG key)
+E9,Probing PCI hardware (bus <*>)
+E10,assuming drive cache: write through
+E11,Creating Topspin <*> entries:
+E12,Started working: 1 available service
+E13,LAPIC_NMI (acpi_id[<*>] high edge lint[<*>])
+E14,(<*>) <*> Netfilter core team
+E15,PCI Interrupt Routing Table [<*>]
+E16,Using IOAPIC for interrupt routing
+E17,Using ACPI for IRQ routing
+E18,Direct-Access ANSI SCSI revision: <*>
+E19,Now running on <*>'s privileges.
+E20,asking for cache data failed
+E21,Using <*> MHz HPET timer.
+E22,session opened for user root by (uid=<*>)
+E23,data_thread() got not answer from any [<*>] datasource
+E24,"Trace cache: <*> uops, L1 D cache: <*>"
+E25,"apic_id <*>, version <*>, address <*>, GSI <*>"
+E26,"routing cache hash table of <*> buckets, <*>"
+E27,MegaRAID Model: LD <*> RAID1 <*> Rev: <*>
+E28,scanning scsi channel 1 [virtual] for logical drives
+E29,<*> AUX port at <*> irq <*>
+E30,<*> KBD port at <*> irq <*>
+E31,(<*>) CMD (run-parts <*>)
+E32,(<*>) CMD <*>)
+E33,Local disconnected: Connection closed.
+E34,connection lost: 'Connection closed.'
+E35,IRQ<*> used by override.
+E36,time reset +<*>
+E37,(supports <*>)
+E38,Power Button (<*>) [<*>]
+E39,Mounted root (<*> filesystem).
+E40,initializing netlink socket (disabled)
+E41,<*>-ioctl (<*>) initialised: <*>
+E42,no floppy controllers found
+E43,LSI Logic MegaRAID driver
+E44,sda<*>
+E45,IOAPIC (id[<*>] address[<*>] gsi_base[<*>])
+E46,IOAPIC (id[<*>] address[<*>] gsi_base[<*>])
+E47,IOAPIC (id[<*>] address[<*>] gsi_base[<*>])
+E48,Local APIC address <*>
+E49,Using MMCONFIG at <*>
+E50,Starting in permissive mode
+E51,Installing public key data
+E52,Registering secondary module capability
+E53,syslog-ng version <*> starting
+E54,Detected <*> MHz processor.
+E55,Using HPET based timekeeping.
+E56,LAPIC (acpi_id[<*>] lapic_id[<*>] enabled)
+E57,Processor [<*>] (supports C1)
+E58,registered new driver hiddev
+E59,registered new driver hub
+E60,registered new driver usbfs
+E61,registered new driver <*>
+E62,Physical Processor ID: <*>
+E63,Registered protocol family <*>
+E64,Using configuration type 1
+E65,allocating divert_blk for eth1
+E66,Mounting NFS filesystems: succeeded
+E67,Mounting other filesystems: failed
+E68,[ib_sm_sweep.c:<*>]: ********************** NEW SWEEP ********************
+E69,[ib_sm_sweep.c:<*>]: No configuration change required
+E70,START: tftp pid=<*> from=<*>
+E71,Intel(<*>) Xeon<*>) CPU <*> stepping <*>
+E72,fw version:[<*>] bios version:[<*>]
+E73,PCI Root Bridge [<*>] (<*>)
+E74,RSDP (v000 DELL ) @ <*>
+E75,Transparent bridge - <*>
+E76,Compressed image found at block <*>
+E77,Changing permissions on special file <*>
+E78,mounted filesystem with ordered data mode.
+E79,eth0: <*>: Intel(<*>) <*> Network Connection
+E80,eth1: <*>: Intel(<*>) <*> Network Connection
+E81,"User <*>, coming from <*>, authenticated."
+E82,unable to qualify my own domain name (<*>) -- using short name
+E83,DHCPOFFER on <*> to <*> via eth1
+E84,DHCPACK on <*> to <*> via eth1
+E85,Assuming <*>MHz system bus speed for PIO modes; override with idebus=<*>
+E86,error: Bind to port <*> on <*> failed: Address already in use.
+E87,"Device: <*>, Temperature changed <*> to <*> since last report"
+E88,"<*>: from=<*>, size=<*>, class=<*>, nrcpts=<*>, msgid=<<*>>, relay=#<*>"
+E89,DHCPREQUEST for <*> (<*>) from <*> via eth1
+E90,PCI Interrupt Link [<*>] (IRQs <*>)
+E91,"PCI interrupt <*> -> GSI <*> (level, low) -> IRQ <*>"
+E92,root=LABEL=/ <*> console=<*> console=<*>boot BOOT_IMAGE<*>
+E93,probe new device <*>: bus <*>:<*>
+E94,"<*>: to=<*>, ctladdr=<*> (0/0), delay=<*>, xdelay=<*>, mailer=relay, pri=<*>, relay=[<*>] [<*>], dsn=<*>, stat=Deferred: Connection refused by [<*>]"
+E95,DHCPDISCOVER from <*> via eth1
+E96,<*> (v001 DELL PE BKC <*> MSFT <*>) @ <*>
+E97,"sys_<*>,v <*> Exp $"
+E98,eth0: <*>: NIC Link is Up <*> Mbps Full Duplex
+E99,Warning: we failed to resolve trusted host name <*>
+E100,xinetd Version <*> started with libwrap loadavg options compiled in.
+E101,DHCPDISCOVER from <*> via eth1: network A_net: no free leases
+E102,"PCI Interrupt Link [<*>] (IRQs <*>) *<*>, disabled."
+E103,DHCPREQUEST for <*> (<*>) from <*> via eth1: unknown lease <*>.
+E104,RRD_update <*>): illegal attempt to update using time <*> when last update time is <*> (minimum one second step)
+E105,RRD_update <*>): illegal attempt to update using time <*> when last update time is <*> (minimum one second step)
+E106,My unqualified host name (<*>) unknown; sleeping for retry
+E107,INT_SRC_OV<*> (bus <*> bus_irq <*> global_irq <*>)
+E108,INT_SRC_<*> (bus <*> bus_irq <*> global_irq <*>)
+E109,scanning scsi channel <*> [Ph<*>] for non-raid devices
+E110,Reading included configuration file: <*> [file<*>] [line=<*>]
+E111,Interpreter enabled
+E112,<*> (<*>)
+E113,autorun ...
+E114,removing <*>
+E115,PCI Interrupt Link [<*>] (IRQs <*>) <*>
+E116,PCI Interrupt Link [<*>] (IRQs <*>) <*>
+E117,Subsystem revision <*>
+E118,colour VGA+ <*>
+E119,Disabled at runtime.
+E120,Disk quotas dquot_<*>
+E121,RNG not detected
+E122,Version <*> Starting
+E123,L2 cache: <*>
+E124,Registering netfilter hooks
+E125,... autorun DONE.
+E126,Autodetecting RAID arrays.
+E127,Unregistering netfilter hooks
+E128,rpc.statd startup succeeded
+E129,portmap startup succeeded
+E130,gmetad startup succeeded
+E131,Starting ts_fixup: succeeded
+E132,syslog-ng startup succeeded
+E133,xinetd startup succeeded
+E134,connection from <*>
+E135,PCI Hot Plug PCI Core version: <*>
+E136,PE/PV Model: <*> SCSI BP Rev: <*>
+E137,Unknown cmd f<*>(<*>) cmd(<*>){<*>} arg(<*>) on <*>
+E138,Server listening on :: port <*>.
+E139,Using software bounce buffering for IO (SW<*>)
+E140,PS/2 mouse device common for all mice
+E141,Hash tables configured (established <*> bind <*>)
+E142,"md driver <*> MAX_MD_DEVS=<*>, MD_SB_DISKS=<*>"
+E143,not allocating divert_blk for non-ethernet device lo
+E144,not allocating divert_blk for non-ethernet device sit<*>
+E145,Wait for ready failed before probe !
+E146,probe of <*> failed with error <*>
+E147,Initializing.
+E148,initialized
+E149,passed.
+E150,succeeded
+E151,<*> (Release Date: <*>)
+E152,<*> (Release Date: <*>)
+E153,Warning: we failed to resolve data source name <*>
+E154,Cannot open file <*> for writing (No such file or directory)
+E155,Warning: we failed to resolve data source name <*>
+E156,RRD_update <*>): illegal attempt to update using time <*> when last update time is <*> (minimum one second step)

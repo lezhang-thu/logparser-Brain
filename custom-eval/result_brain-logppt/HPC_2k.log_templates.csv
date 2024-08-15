@@ -1,0 +1,51 @@
+EventId,EventTemplate
+E0,Component State Change: Component <*> is in the unavailable state (HWID=<*>)
+E1,inconsistent nodesets node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*>
+E2,Component State Change: Component <*> is in the unavailable state (HWID=<*>)
+E3,ClusterFileSystem: ServerFileSystem domain <*> is no longer served by node node-<*>
+E4,clusterAddMember (command <*>)
+E5,risBoot (command <*>)
+E6,bootGenvmunix (command <*>)
+E7,boot (command <*>)
+E8,wait (command <*>)
+E9,halt (command <*>)
+E10,Link in reset
+E11,Failed subcommands <*>
+E12,Command has completed successfully
+E13,Command has been aborted
+E14,psu failure\ ambient=<*>
+E15,Linkerror event interval expired
+E16,link errors remain current
+E17,Targeting domains:node-<*> and nodes:node-[<*>-<*>] child of command <*>
+E18,Targeting domains:node-<*> and nodes:node-[<*>]
+E19,Targeting domains:node-<*> and nodes:node-[<*>]
+E20,Fan speeds ( <*> )
+E21,Link error on broadcast tree Interconnect-<*>
+E22,Targeting domains:node-<*> nodes:node-<*>
+E23,boot (command <*>) Error: HALT asserted\ cannot continue
+E24,Temperature (<*>) exceeds warning threshold
+E25,ClusterFileSystem: There is no server for ServerFileSystem domain <*>
+E26,ServerFileSystem: An ServerFileSystem domain panic has occurred on <*>
+E27,NIFF: node node-<*> detected a failed network connection on network <*> via interface alt0
+E28,power/control problem
+E29,Link error
+E30,Link ok
+E31,not responding
+E32,configured out
+E33,not-responding
+E34,ambient=<*>
+E35,ServerFileSystem: ServerFileSystem domain <*> is full
+E36,running
+E37,blocked
+E38,active
+E39,starting
+E40,closing
+E41,normal
+E42,warning
+E43,critical
+E44,inconsistent nodesets node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*>
+E45,inconsistent nodesets node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*>
+E46,risBoot (command <*>) Error: Timed out while waiting for SRM prompt: <ABORT code completed>
+E47,NIFF: node node-<*> has detected an available network connection on network <*> via interface <*>
+E48,NIFF: node node-<*> has detected an available network connection on network <*> via interface alt0
+E49,NIFF: node node-<*> has detected an available network connection on network <*> via interface scip0

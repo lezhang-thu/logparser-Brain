@@ -1,0 +1,158 @@
+EventId,EventTemplate,Occurrences
+E0,"('session', 'closed', 'for', 'user', 'root')",24
+E1,"('synchronized', 'to', '<*>', 'stratum', '<*>')",568
+E2,"('[ib_sm_sweep.c:', '<*>', 'No', 'topology', 'change')",62
+E3,"('kernel', 'time', 'sync', 'disabled', '<*>')",1
+E4,"('kernel', 'time', 'sync', 'enabled', '<*>')",1
+E5,"('Received', 'SNMP', 'packet(s)', '<*>', '<*>')",1
+E6,"('HPET', 'id:', '0xffffffff', '<*>', '<*>')",1
+E7,"('<*>', 'USB', 'HID', '<*>', 'driver')",1
+E8,"('CentOS-4', '(Kernel', 'Module', 'GPG', 'key)')",1
+E9,"('Probing', 'PCI', 'hardware', '(bus', '<*>')",1
+E10,"('assuming', 'drive', 'cache:', 'write', 'through')",1
+E11,"('Creating', 'Topspin', '/dev', 'entries:', '')",1
+E12,"('Started', 'working:', '<*>', 'available', 'service')",1
+E13,"('LAPIC_NMI', '<*>', 'high', 'edge', 'lint[0x1])')",4
+E14,"('(C)', '<*>', 'Netfilter', 'core', 'team')",4
+E15,"('PCI', 'Interrupt', 'Routing', 'Table', '<*>')",10
+E16,"('Using', 'IOAPIC', 'for', 'interrupt', 'routing')",1
+E17,"('Using', 'ACPI', 'for', 'IRQ', 'routing')",1
+E18,"('<*>', 'ANSI', 'SCSI', 'revision:', '<*>')",2
+E19,"('<*>', 'running', 'on', '<*>', 'privileges.')",2
+E20,"('asking', 'for', 'cache', 'data', 'failed')",1
+E21,"('Using', '<*>', 'MHz', 'HPET', 'timer.')",1
+E22,"('session', 'opened', 'for', 'user', 'root', 'by', '(uid=', '<*>')",19
+E23,"('data_thread()', 'got', 'not', 'answer', 'from', 'any', '<*>', 'datasource')",819
+E24,"('Trace', 'cache:', '<*>', 'uops,', '<*>', 'D', 'cache:', '<*>')",5
+E25,"('apic_id', '<*>', 'version', '<*>', 'address', '<*>', 'GSI', '<*>')",3
+E26,"('routing', 'cache', 'hash', 'table', 'of', '<*>', 'buckets,', '<*>')",1
+E27,"('MegaRAID', 'Model:', 'LD', '<*>', 'RAID1', '<*>', 'Rev:', '<*>')",1
+E28,"('scanning', 'scsi', 'channel', '<*>', '[virtual]', 'for', 'logical', 'drives')",1
+E29,"('<*>', 'AUX', 'port', 'at', '<*>', '<*>', 'irq', '<*>')",1
+E30,"('<*>', 'KBD', 'port', 'at', '<*>', '<*>', 'irq', '<*>')",1
+E31,"('(root)', 'CMD', '(run-parts', '<*>')",14
+E32,"('(root)', 'CMD', '(/projects/tbird/temps/get_temps', '<*>')",5
+E33,"('<*>', 'disconnected:', 'Connection', 'closed.')",3
+E34,"('<*>', 'lost:', ""'Connection"", ""closed.'"")",3
+E35,"('<*>', 'used', 'by', 'override.')",3
+E36,"('time', 'reset', '<*>', 's')",1
+E37,"('(supports', '<*>', '<*>', '<*>')",1
+E38,"('Power', 'Button', '(FF)', '[PWRF]')",1
+E39,"('Mounted', 'root', '(ext2', 'filesystem).')",1
+E40,"('initializing', 'netlink', 'socket', '(disabled)')",1
+E41,"('4.1.0-ioctl', '<*>', 'initialised:', '<*>')",1
+E42,"('no', 'floppy', 'controllers', 'found')",1
+E43,"('LSI', 'Logic', 'MegaRAID', 'driver')",1
+E44,"('sda1', 'sda2', 'sda3', 'sda4')",1
+E45,"('<*>', '<*>', '<*>', 'gsi_base[0])')",1
+E46,"('<*>', '<*>', '<*>', 'gsi_base[32])')",1
+E47,"('<*>', '(id[0x0a]', '<*>', 'gsi_base[64])')",1
+E48,"('<*>', 'APIC', 'address', '<*>')",1
+E49,"('<*>', 'MMCONFIG', 'at', '<*>')",1
+E50,"('<*>', 'in', 'permissive', 'mode')",1
+E51,"('<*>', 'public', 'key', 'data')",1
+E52,"('<*>', 'secondary', 'module', 'capability')",1
+E53,"('<*>', 'version', '<*>', 'starting')",1
+E54,"('<*>', '<*>', 'MHz', 'processor.')",1
+E55,"('<*>', 'HPET', 'based', 'timekeeping.')",1
+E56,"('LAPIC', '<*>', '<*>', 'enabled)')",4
+E57,"('Processor', '<*>', '<*>', '<*>')",4
+E58,"('registered', '<*>', '<*>', 'hiddev')",1
+E59,"('registered', '<*>', '<*>', 'hub')",1
+E60,"('registered', '<*>', '<*>', 'usbfs')",1
+E61,"('registered', '<*>', '<*>', 'usbhid')",1
+E62,"('Physical', 'Processor', 'ID:', '<*>')",5
+E63,"('Registered', 'protocol', 'family', '<*>')",5
+E64,"('Using', 'configuration', 'type', '<*>')",1
+E65,"('allocating', 'divert_blk', 'for', '<*>')",2
+E66,"('Mounting', 'NFS', 'filesystems:', '<*>')",1
+E67,"('Mounting', 'other', 'filesystems:', '<*>')",1
+E68,"('[ib_sm_sweep.c:', '<*>', '**********************', 'NEW', 'SWEEP', '********************')",62
+E69,"('[ib_sm_sweep.c:', '<*>', 'No', 'configuration', 'change', 'required')",62
+E70,"('START:', 'tftp', 'pid=', '<*>', 'from=', '<*>')",1
+E71,"('Intel(R)', 'Xeon(TM)', 'CPU', '<*>', 'stepping', '<*>')",1
+E72,"('fw', 'version:', '<*>', 'bios', 'version:', '<*>')",1
+E73,"('<*>', 'Root', 'Bridge', '[PCI0]', '<*>', '<*>')",1
+E74,"('<*>', '<*>', 'DELL', ')', '@', '<*>')",1
+E75,"('<*>', 'bridge', '-', '<*>', '<*>', '<*>')",1
+E76,"('<*>', 'image', 'found', 'at', 'block', '<*>')",1
+E77,"('<*>', 'permissions', 'on', 'special', 'file', '/dev/logsurfer')",1
+E78,"('mounted', 'filesystem', 'with', 'ordered', 'data', 'mode.')",3
+E79,"('eth0:', '<*>', 'Intel(R)', '<*>', 'Network', 'Connection')",1
+E80,"('eth1:', '<*>', 'Intel(R)', '<*>', 'Network', 'Connection')",1
+E81,"('User', '<*>', 'coming', 'from', '<*>', 'authenticated.')",2
+E82,"('unable', 'to', 'qualify', 'my', 'own', 'domain', 'name', '<*>', '--', 'using', 'short', 'name')",10
+E83,"('DHCPOFFER', 'on', '<*>', 'to', '<*>', '<*>', '<*>', '<*>', 'ba:', '<*>', 'via', 'eth1')",5
+E84,"('DHCPACK', 'on', '<*>', 'to', '<*>', '<*>', '<*>', '<*>', 'ba:', '<*>', 'via', 'eth1')",3
+E85,"('Assuming', '<*>', 'system', 'bus', 'speed', '<*>', 'PIO', 'modes;', 'override', 'with', 'idebus=', 'xx')",1
+E86,"('error:', 'Bind', 'to', 'port', '<*>', '<*>', '<*>', 'failed:', 'Address', 'already', 'in', 'use.')",1
+E87,"('Device:', '/dev/sda,', 'Temperature', 'changed', '<*>', '<*>', 'to', '<*>', '<*>', 'since', 'last', 'report')",1
+E88,"('<*>', 'from=', 'root,', 'size=', '<*>', 'class=', '<*>', 'nrcpts=', '<*>', 'msgid=', '<*>', 'relay=', '#7#@localhost')",10
+E89,"('DHCPREQUEST', 'for', '<*>', '<*>', 'from', '<*>', '<*>', '<*>', '<*>', 'ba:', '<*>', 'via', 'eth1')",3
+E90,"('PCI', 'Interrupt', 'Link', '[LNKB]', '(IRQs', '<*>', '<*>', '<*>', '<*>', '<*>', '<*>', '<*>', '<*>')",1
+E91,"('PCI', 'interrupt', '<*>', '<*>', '<*>', '->', 'GSI', '<*>', '(level,', 'low)', '->', 'IRQ', '<*>')",11
+E92,"('root=', 'LABEL=', '/', 'initrd=', '/x86_64/initrd-2.6.9-5.0.5.EL-lustre-1.4.2-perfctr-admin', 'console=', 'tty0', 'console=', 'ttyS0,', '<*>', 'fastboot', 'BOOT_IMAGE=', '/x86_64/vmlinuz-2.6.9-5.0.5.EL-lustre-1.4.2-perfctr')",1
+E93,"('probe', 'new', 'device', '<*>', '<*>', '<*>', '<*>', 'bus', '<*>', 'slot', '<*>', 'func', '<*>')",1
+E94,"('<*>', 'to=', 'root,', 'ctladdr=', 'root', '<*>', 'delay=', '<*>', '<*>', '<*>', 'xdelay=', '<*>', '<*>', '<*>', 'mailer=', 'relay,', 'pri=', '<*>', 'relay=', '<*>', '<*>', 'dsn=', '<*>', 'stat=', 'Deferred:', 'Connection', 'refused', 'by', '<*>')",10
+E95,"('DHCPDISCOVER', 'from', '<*>', '<*>', '<*>', '<*>', 'ba:', '<*>', 'via', 'eth1')",5
+E96,"('<*>', '<*>', 'DELL', 'PE', 'BKC', '<*>', 'MSFT', '<*>', '@', '<*>')",7
+E97,"('sys_ia32.c,', 'v', '<*>', '<*>', '<*>', '<*>', '<*>', 'ak', 'Exp', '$')",1
+E98,"('eth0:', 'e1000_watchdog:', 'NIC', 'Link', 'is', 'Up', '<*>', 'Mbps', 'Full', 'Duplex')",1
+E99,"('Warning:', 'we', 'failed', 'to', 'resolve', 'trusted', 'host', 'name', 'dadmin3', 'dadmin4')",1
+E100,"('xinetd', 'Version', '<*>', 'started', 'with', 'libwrap', 'loadavg', 'options', 'compiled', 'in.')",1
+E101,"('DHCPDISCOVER', 'from', '<*>', '<*>', '<*>', '<*>', 'ba:', '<*>', 'via', 'eth1:', 'network', 'A_net:', 'no', 'free', 'leases')",15
+E102,"('PCI', 'Interrupt', 'Link', '<*>', '(IRQs', '<*>', '<*>', '<*>', '<*>', '<*>', '<*>', '<*>', '<*>', '<*>', 'disabled.')",5
+E103,"('DHCPREQUEST', 'for', '<*>', '<*>', 'from', '<*>', '<*>', '<*>', '<*>', 'ba:', '<*>', 'via', 'eth1:', 'unknown', 'lease', '<*>')",9
+E104,"('RRD_update', '(/var/lib/ganglia/rrds/C', '<*>', 'illegal', 'attempt', 'to', 'update', 'using', 'time', '<*>', 'when', 'last', 'update', 'time', 'is', '<*>', '(minimum', 'one', 'second', 'step)')",2
+E105,"('RRD_update', '(/var/lib/ganglia/rrds/D', '<*>', 'illegal', 'attempt', 'to', 'update', 'using', 'time', '<*>', 'when', 'last', 'update', 'time', 'is', '<*>', '(minimum', 'one', 'second', 'step)')",8
+E106,"('My', 'unqualified', 'host', 'name', '<*>', 'unknown;', 'sleeping', 'for', 'retry')",5
+E107,"('INT_SRC_OVR', '(bus', '<*>', 'bus_irq', '<*>', 'global_irq', '<*>', 'dfl', 'dfl)')",1
+E108,"('INT_SRC_OVR', '(bus', '<*>', 'bus_irq', '<*>', 'global_irq', '<*>', 'high', 'level)')",1
+E109,"('scanning', 'scsi', 'channel', '<*>', '[Phy', '<*>', 'for', 'non-raid', 'devices')",1
+E110,"('Reading', 'included', 'configuration', 'file:', '<*>', '[file=', '<*>', '[line=', '<*>')",17
+E111,"('Interpreter', 'enabled')",1
+E112,"('<*>', '<*>')",1
+E113,"('autorun', '...')",2
+E114,"('removing', '<*>')",16
+E115,"('PCI', 'Interrupt', 'Link', '[LNKA]', '(IRQs', '<*>', '<*>', '<*>', '<*>', '<*>', '<*>', '<*>', '<*>', '<*>')",1
+E116,"('PCI', 'Interrupt', 'Link', '[LNKC]', '(IRQs', '<*>', '<*>', '<*>', '<*>', '<*>', '<*>', '<*>', '<*>', '<*>')",1
+E117,"('Subsystem', 'revision', '<*>')",1
+E118,"('colour', 'VGA+', '<*>')",1
+E119,"('Disabled', 'at', 'runtime.')",1
+E120,"('Disk', 'quotas', 'dquot_6.5.1')",1
+E121,"('RNG', 'not', 'detected')",1
+E122,"('Version', '<*>', 'Starting')",1
+E123,"('<*>', 'cache:', '<*>')",5
+E124,"('Registering', 'netfilter', 'hooks')",1
+E125,"('...', 'autorun', 'DONE.')",2
+E126,"('Autodetecting', 'RAID', 'arrays.')",2
+E127,"('Unregistering', 'netfilter', 'hooks')",1
+E128,"('rpc.statd', 'startup', 'succeeded')",1
+E129,"('portmap', 'startup', 'succeeded')",1
+E130,"('gmetad', 'startup', 'succeeded')",1
+E131,"('Starting', 'ts_fixup:', 'succeeded')",1
+E132,"('syslog-ng', 'startup', 'succeeded')",1
+E133,"('xinetd', 'startup', 'succeeded')",1
+E134,"('connection', 'from', '<*>')",2
+E135,"('<*>', 'Hot', 'Plug', '<*>', 'Core', 'version:', '<*>')",1
+E136,"('<*>', 'Model:', '<*>', 'SCSI', 'BP', 'Rev:', '<*>')",1
+E137,"('<*>', 'cmd', 'fd(5)', '<*>', 'arg(ffffda44)', 'on', '/dev/sda')",1
+E138,"('<*>', 'listening', 'on', ':', ':', 'port', '<*>')",1
+E139,"('Using', 'software', 'bounce', 'buffering', 'for', 'IO', '(SWIOTLB)')",1
+E140,"('PS/2', 'mouse', 'device', 'common', 'for', 'all', 'mice')",1
+E141,"('Hash', 'tables', 'configured', '(established', '<*>', 'bind', '<*>')",1
+E142,"('md', 'driver', '<*>', 'MAX_MD_DEVS=', '<*>', 'MD_SB_DISKS=', '<*>')",1
+E143,"('not', 'allocating', 'divert_blk', 'for', 'non-ethernet', 'device', 'lo')",1
+E144,"('not', 'allocating', 'divert_blk', 'for', 'non-ethernet', 'device', 'sit0')",1
+E145,"('Wait', 'for', 'ready', 'failed', 'before', 'probe', '!')",6
+E146,"('probe', 'of', 'vesafb0', 'failed', 'with', 'error', '<*>')",1
+E147,"('Initializing.',)",1
+E148,"('initialized',)",1
+E149,"('passed.',)",1
+E150,"('succeeded',)",2
+E151,"('<*>', '(Release', 'Date:', 'Fri', 'Dec', '<*>', '<*>', '<*>', '<*>', 'EST', '<*>')",1
+E152,"('<*>', '(Release', 'Date:', 'Mon', 'Sep', '<*>', '<*>', '<*>', '<*>', 'EDT', '<*>')",1
+E153,"('Warning:', 'we', 'failed', 'to', 'resolve', 'data', 'source', 'name', 'dadmin2', 'dadmin3', 'dadmin4')",1
+E154,"('Cannot', 'open', 'file', '/dev/logsurfer', 'for', 'writing', '(No', 'such', 'file', 'or', 'directory)')",1
+E155,"('Warning:', 'we', 'failed', 'to', 'resolve', 'data', 'source', 'name', '<*>', '<*>', '<*>', '<*>', '<*>', '<*>', '<*>', '<*>', '<*>', '<*>', '<*>', '<*>', '<*>', '<*>', '<*>', '<*>', '<*>', '<*>', '<*>', '<*>', '<*>', '<*>', '<*>', '<*>', '<*>', '<*>', '<*>', '<*>', '<*>', '<*>', '<*>', '<*>', '<*>', '<*>', '<*>', '<*>', '<*>', '<*>', '<*>', '<*>', '<*>', '<*>', '<*>', '<*>', '<*>', '<*>', '<*>', '<*>', '<*>', '<*>', '<*>', '<*>', '<*>', '<*>', '<*>', '<*>', '<*>', '<*>', '<*>', '<*>', '<*>', '<*>', '<*>', '<*>', '<*>', '<*>', '<*>', '<*>', '<*>', '<*>', '<*>', '<*>', '<*>', '<*>', '<*>', '<*>', '<*>', '<*>', '<*>', '<*>', '<*>', '<*>', '<*>', '<*>', '<*>', '<*>', '<*>', '<*>', '<*>', '<*>', '<*>', '<*>', '<*>', '<*>', '<*>', '<*>', '<*>', '<*>', '<*>', '<*>', '<*>', '<*>', '<*>', '<*>', '<*>', '<*>', '<*>', '<*>', '<*>', '<*>', '<*>', '<*>', '<*>', '<*>', '<*>')",33
+E156,"('RRD_update', '(/var/lib/ganglia/rrds/unspecified/badmin3/disk_total.rrd):', 'illegal', 'attempt', 'to', 'update', 'using', 'time', '<*>', 'when', 'last', 'update', 'time', 'is', '<*>', '(minimum', 'one', 'second', 'step)')",1

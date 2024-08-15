@@ -1,0 +1,33 @@
+EventId,EventTemplate
+E0,"Registered signal handlers for [TERM, HUP, INT]"
+E1,Successfully started service 'sparkExecutorActorSystem' on port <*>.
+E2,Successfully started service 'org.<*>.spark.network.<*>ty.<*>tyBlockTransferService' on port <*>.
+E3,Starting executor ID <*> on host <*>
+E4,Reading broadcast variable <*> took <*> ms
+E5,File Output Committer Algorithm version is <*>
+E6,Changing view acls to: <*>
+E7,Changing modify acls to: <*>
+E8,MemoryStore started with capacity <*> GB
+E9,Connecting to driver: <*>
+E10,"Partition <*> not found, computing it"
+E11,Input split: <*>
+E12,"mapred.job.id is deprecated. Instead, use mapreduce.job.id"
+E13,"SecurityManager: authentication disabled; ui acls disabled; users with view permissions: Set(yarn, curi); users with modify permissions: Set(yarn, curi)"
+E14,Slf4jLogger started
+E15,<*>
+E16,Starting remoting
+E17,Registered BlockManager
+E18,Remoting started; listening on addresses :[<*>]
+E19,Saved output of task '<*>' to <*>
+E20,Created local directory at <*>
+E21,Started reading broadcast variable <*>
+E22,Successfully registered with driver
+E23,Server created on <*>
+E24,Trying to register BlockManager
+E25,Got assigned task <*>
+E26,Found block <*> locally
+E27,Running task <*> in stage <*> (TID <*>)
+E28,"Block <*> stored as bytes in memory (estimated size <*>, free <*>)"
+E29,"Block <*> stored as values in memory (estimated size <*>, free <*>)"
+E30,Finished task <*> in stage <*> (TID <*>). <*> bytes result sent to driver
+E31,"Times: total = <*>, boot = <*>, init = <*>, finish = <*>"

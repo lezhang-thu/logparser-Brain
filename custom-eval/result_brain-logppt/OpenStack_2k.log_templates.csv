@@ -1,0 +1,44 @@
+EventId,EventTemplate
+E0,"<*> ""GET <*>"" status: <*> len: <*> time: <*>"
+E1,"<*> ""POST <*>"" status: <*> len: <*> time: <*>"
+E2,"<*> ""DELETE <*>"" status: <*> len: <*> time: <*>"
+E3,[instance: <*>] Took <*> seconds to deallocate network for instance.
+E4,[instance: <*>] VM Started (Lifecycle Event)
+E5,[instance: <*>] VM Paused (Lifecycle Event)
+E6,[instance: <*>] VM Resumed (Lifecycle Event)
+E7,[instance: <*>] VM Stopped (Lifecycle Event)
+E8,Creating event network-vif-plugged:<*> for instance <*>
+E9,[instance: <*>] Deleting instance files <*>
+E10,[instance: <*>] Deletion of <*> complete
+E11,Removing base or swap file: <*>
+E12,Successfully synced instances from host '<*>'.
+E13,[instance: <*>] During sync_power_state the instance has a pending task (spawning). Skip.
+E14,[instance: <*>] Took <*> seconds to spawn the instance on the hypervisor.
+E15,[instance: <*>] Took <*> seconds to destroy the instance on the hypervisor.
+E16,The instance sync for host '<*>' did not match. Re-created its InstanceList.
+E17,image <*> at <*>): checking
+E18,[instance: <*>] Instance spawned successfully.
+E19,[instance: <*>] Instance destroyed successfully.
+E20,Compute_service record updated for <*>
+E21,"image <*> at <*>): in use: on this node <*> local, <*> on other nodes sharing this instance storage"
+E22,Active base files: <*>
+E23,[instance: <*>] Terminating instance
+E24,Unknown base file: <*>
+E25,Removable base files: <*>
+E26,[instance: <*>] Claim successful
+E27,[instance: <*>] Creating image
+E28,[instance: <*>] Took <*> seconds to build instance.
+E29,Auditing locally available compute resources for node <*>
+E30,"Total usable vcpus: <*>, total allocated vcpus: <*>"
+E31,Final resource view: name=<*> phys_ram=<*> used_ram=<*> phys_disk=<*> used_disk=<*> total_vcpus=<*> used_vcpus=<*> pci_stats=[]
+E32,HTTP exception thrown: No instances found for any event
+E33,"[instance: <*>] Total memory: <*> MB, used: <*> MB"
+E34,"[instance: <*>] Total disk: <*> GB, used: <*> GB"
+E35,"[instance: <*>] Total vcpu: <*> VCPU, used: <*> VCPU"
+E36,"[instance: <*>] memory limit: <*> MB, free: <*> MB"
+E37,"[instance: <*>] disk limit not specified, defaulting to unlimited"
+E38,"[instance: <*>] vcpu limit not specified, defaulting to unlimited"
+E39,Base or swap file too young to remove: <*>
+E40,"[instance: <*>] Attempting claim: memory <*> MB, disk <*> GB, vcpus <*> CPU"
+E41,Running instance usage audit for host <*> from <*> instances.
+E42,"While synchronizing instance power states, found <*> instances in the database and <*> instances on the hypervisor."

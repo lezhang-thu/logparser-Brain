@@ -1,0 +1,121 @@
+EventId,EventTemplate,Occurrences
+E0,"('authentication', 'failure;', 'logname=', 'uid=', '<*>', 'euid=', '<*>', 'tty=', 'NODEVssh', 'ruser=', 'rhost=', '<*>')",117
+E1,"('check', 'pass;', 'user', 'unknown')",117
+E2,"('***', 'info', '[mice.c(1766)]:', '')",1
+E3,"('imps2:', 'Auto-detected', 'intellimouse', 'PS/2')",1
+E4,"('ROOT', 'LOGIN', 'ON', 'tty2')",1
+E5,"('Detected', '<*>', 'MHz', 'processor.')",1
+E6,"('Console:', 'colour', 'VGA+', '<*>')",1
+E7,"('Security', 'Scaffold', '<*>', 'initialized')",1
+E8,"('Checking', ""'hlt'"", 'instruction...', 'OK.')",1
+E9,"('Setting', 'network', 'parameters:', 'succeeded')",1
+E10,"('VFS:', 'Disk', 'quotas', 'dquot_6.5.1')",1
+E11,"('removing', 'device', 'node', ""'/udev/vcsa2'"")",2
+E12,"('removing', 'device', 'node', ""'/udev/vcs2'"")",2
+E13,"('creating', 'device', 'node', ""'/udev/vcs2'"")",2
+E14,"('creating', 'device', 'node', ""'/udev/vcsa2'"")",2
+E15,"('CPU:', '<*>', 'cache:', '<*>')",1
+E16,"('ACPI:', 'Subsystem', 'revision', '<*>')",1
+E17,"('PCI:', 'Probing', 'PCI', 'hardware')",1
+E18,"('SELinux:', 'Registering', 'netfilter', 'hooks')",1
+E19,"('authentication', 'failure;', 'logname=', 'uid=', '<*>', 'euid=', '<*>', 'tty=', 'NODEVssh', 'ruser=', 'rhost=', '<*>', 'user=', 'root')",351
+E20,"('authentication', 'failure;', 'logname=', 'uid=', '<*>', 'euid=', '<*>', 'tty=', 'NODEVssh', 'ruser=', 'rhost=', '<*>', 'user=', 'guest')",17
+E21,"('authentication', 'failure;', 'logname=', 'uid=', '<*>', 'euid=', '<*>', 'tty=', 'NODEVssh', 'ruser=', 'rhost=', '<*>', 'user=', 'test')",4
+E22,"('Memory:', '<*>', 'available', '<*>', 'kernel', 'code,', '<*>', 'reserved,', '<*>', 'data,', '<*>', 'init,', '<*>', 'highmem)')",1
+E23,"('session', 'opened', 'for', 'user', '<*>', 'by', '(uid=', '<*>')",122
+E24,"('session', 'opened', 'for', 'user', '<*>', 'by', 'LOGIN(uid=', '<*>')",1
+E25,"('pci_hotplug:', 'PCI', 'Hot', 'Plug', 'PCI', 'Core', 'version:', '<*>')",1
+E26,"('session', 'closed', 'for', 'user', '<*>')",123
+E27,"('ALERT', 'exited', 'abnormally', 'with', '<*>')",43
+E28,"('Received', 'SNMP', 'packet(s)', 'from', '<*>')",1
+E29,"('BIOS-provided', 'physical', 'RAM', 'map:', '')",1
+E30,"('mapped', '<*>', 'trampoline', 'to', '<*>')",1
+E31,"('Calibrating', 'delay', 'loop...', '<*>', 'BogoMIPS')",1
+E32,"('POSIX', 'conformance', 'testing', 'by', 'UNIFIX')",1
+E33,"('NET:', 'Registered', 'protocol', 'family', '<*>')",1
+E34,"('audit:', 'initializing', 'netlink', 'socket', '(disabled)')",1
+E35,"('HCI', 'daemon', 'ver', '<*>', 'started')",1
+E36,"('Real', 'Time', 'Clock', 'Driver', '<*>')",1
+E37,"('<*>', '<*>', '-', '<*>', '(usable)')",2
+E38,"('<*>', '<*>', '-', '<*>', '(reserved)')",3
+E39,"('On', 'node', '<*>', 'totalpages:', '<*>')",1
+E40,"('Using', 'tsc', '<*>', 'high-res', 'timesource')",1
+E41,"('SELinux:', 'Starting', '<*>', 'permissive', 'mode')",1
+E42,"('selinux_register_security:', 'Registering', '<*>', 'module', 'capability')",1
+E43,"('Total', 'HugeTLB', '<*>', 'allocated,', '<*>')",1
+E44,"('Bringing', 'up', '<*>', 'interface:', 'succeeded')",1
+E45,"('Intel', 'machine', 'check', 'architecture', 'supported.')",1
+E46,"('Initializing', 'random', 'number', 'generator:', 'succeeded')",1
+E47,"('PCI:', 'Using', 'configuration', 'type', '<*>')",1
+E48,"('isapnp:', 'Scanning', 'for', 'PnP', 'cards...')",1
+E49,"('usbcore:', 'registered', 'new', 'driver', 'usbfs')",1
+E50,"('usbcore:', 'registered', 'new', 'driver', 'hub')",1
+E51,"('connection', 'from', '<*>', '<*>', 'at', '<*>', '<*>', '<*>', '<*>', '<*>')",909
+E52,"('Dentry', 'cache', 'hash', 'table', 'entries:', '<*>', '(order:', '<*>', '<*>', 'bytes)')",1
+E53,"('PCI:', 'Using', 'IRQ', 'router', 'PIIX/ICH', '<*>', 'at', '<*>', '<*>', '<*>')",1
+E54,"('User', 'unknown', 'timed', 'out', 'after', '<*>', 'seconds', 'at', 'Sat', '<*>', '<*>', '<*>', '<*>')",1
+E55,"('authentication', 'failure;', 'logname=', 'uid=', '<*>', 'euid=', '<*>', 'tty=', ':', '<*>', 'ruser=', 'rhost=', '')",1
+E56,"('cupsd', 'shutdown', 'succeeded')",6
+E57,"('cupsd', 'startup', 'succeeded')",6
+E58,"('Kerberos', 'authentication', 'failed')",23
+E59,"(""Couldn't"", 'authenticate', '<*>')",1
+E60,"('<*>', 'HIGHMEM', '<*>')",1
+E61,"('<*>', 'LOWMEM', '<*>')",1
+E62,"('Capability', 'LSM', '<*>')",1
+E63,"('ACPI:', 'Interpreter', '<*>')",1
+E64,"('Starting', 'pcmcia:', '<*>')",1
+E65,"('<*>', '<*>', '<*>')",1
+E66,"('sdpd', '<*>', '<*>')",1
+E67,"('Initializing', 'Cryptographic', '<*>')",1
+E68,"('syslogd', 'startup', 'succeeded')",1
+E69,"('irqbalance', 'startup', 'succeeded')",1
+E70,"('portmap', 'startup', 'succeeded')",1
+E71,"('rpc.statd', 'startup', 'succeeded')",1
+E72,"('rpc.idmapd', 'startup', 'succeeded')",1
+E73,"('hcid', 'startup', 'succeeded')",1
+E74,"('zapping', 'low', 'mappings.')",1
+E75,"('DMI', '<*>', 'present.')",1
+E76,"('Built', '<*>', 'zonelists')",1
+E77,"('Version', '<*>', 'Starting')",1
+E78,"('mtrr:', '<*>', '<*>')",1
+E79,"('kernel.core_uses_pid', '=', '<*>')",1
+E80,"('klogd', 'startup', 'succeeded')",1
+E81,"('sdpd', 'startup', 'succeeded')",1
+E82,"('restart.',)",7
+E83,"('Authentication', 'failed', 'from', '<*>', '<*>', 'Permission', 'denied', 'in', 'replay', 'cache', 'code')",8
+E84,"('ACPI', 'disabled', 'because', 'your', 'bios', 'is', 'from', '<*>', 'and', 'too', 'old')",1
+E85,"('PCI:', 'PCI', 'BIOS', 'revision', '<*>', 'entry', 'at', '0xfc0ce,', 'last', 'bus=', '<*>')",1
+E86,"('Authentication', 'failed', 'from', '<*>', '<*>', 'Software', 'caused', 'connection', 'abort')",15
+E87,"('warning:', ""can't"", 'get', 'client', 'address:', 'Connection', 'reset', 'by', 'peer')",2
+E88,"('Kernel', 'command', 'line:', 'ro', 'root=', 'LABEL=', '/', 'rhgb', 'quiet')",1
+E89,"('There', 'is', 'already', 'a', 'security', 'framework', 'initialized,', 'register_security', 'failed.')",1
+E90,"('apm:', 'BIOS', 'version', '<*>', 'Flags', '<*>', '(Driver', 'version', '<*>')",1
+E91,"('PID', 'hash', 'table', 'entries:', '<*>', '(order', '<*>', '<*>', 'bytes)')",1
+E92,"('Mount-cache', 'hash', 'table', 'entries:', '<*>', '(order:', '<*>', '<*>', 'bytes)')",1
+E93,"('Dquot-cache', 'hash', 'table', 'entries:', '<*>', '(order', '<*>', '<*>', 'bytes)')",1
+E94,"('Inode-cache', 'hash', 'table', 'entries:', '<*>', '(order:', '<*>', '<*>', 'bytes)')",1
+E95,"('CPU:', '<*>', 'I', 'cache:', '<*>', '<*>', 'D', 'cache:', '<*>')",1
+E96,"('Linux', 'Plug', 'and', 'Play', 'Support', '<*>', '(c)', 'Adam', 'Belay')",1
+E97,"('ACPI:', 'ACPI', 'tables', 'contain', 'no', 'PCI', 'IRQ', 'routing', 'entries')",1
+E98,"('ANONYMOUS', 'FTP', 'LOGIN', 'FROM', '<*>', '(anonymous)')",2
+E99,"('notify', 'question', 'section', 'contains', 'no', 'SOA')",16
+E100,"('Failure', 'registering', 'capabilities', 'with', 'the', 'kernel')",1
+E101,"('PCI:', 'Invalid', 'ACPI-PCI', 'IRQ', 'routing', 'table')",1
+E102,"('Transparent', 'bridge', '-', '<*>', '<*>', '<*>')",1
+E103,"('PCI:', 'Probing', 'PCI', 'hardware', '(bus', '<*>')",1
+E104,"('getpeername', '(ftpd):', 'Transport', 'endpoint', 'is', 'not', 'connected')",4
+E105,"('<*>', '<*>', 'log', 'source', '=', '/proc/kmsg', 'started.')",1
+E106,"('<*>', 'Intel', 'Pentium', 'III', '(Coppermine)', 'stepping', '<*>')",1
+E107,"('<*>', 'No', 'Plug', '&', 'Play', 'device', 'found')",1
+E108,"('<*>', 'agpgart', 'interface', '<*>', '(c)', 'Dave', '<*>')",1
+E109,"('DMA', 'zone:', '<*>', 'pages,', 'LIFO', 'batch:', '<*>')",1
+E110,"('Normal', 'zone:', '<*>', 'pages,', 'LIFO', 'batch:', '<*>')",1
+E111,"('HighMem', 'zone:', '<*>', 'pages,', 'LIFO', 'batch:', '<*>')",1
+E112,"('You', 'can', 'enable', 'it', 'with', 'acpi=', 'force')",1
+E113,"('CPU', '<*>', 'irqstacks,', 'hard=', '<*>', 'soft=', '<*>')",1
+E114,"('Intel', 'machine', 'check', 'reporting', 'enabled', 'on', 'CPU#0.')",1
+E115,"('Enabling', 'fast', 'FPU', 'save', 'and', 'restore...', 'done.')",1
+E116,"('Enabling', 'unmasked', 'SIMD', 'FPU', 'exception', 'support...', 'done.')",1
+E117,"('Linux', 'version', '<*>', '(bhcompile@bugs.build.redhat.com)', '(gcc', 'version', '<*>', '<*>', '(Red', 'Hat', 'Linux', '<*>', '<*>', 'Sat', 'May', '<*>', '<*>', 'EDT', '<*>')",1
+E118,"('Initializing', 'CPU#0')",1
+E119,"('SELinux:', 'Initializing.')",1

@@ -1,0 +1,128 @@
+EventId,EventTemplate,Occurrences
+E0,"('instruction', 'cache', 'parity', 'error', 'corrected')",42
+E1,"('program', 'interrupt:', 'privileged', 'instruction..', '<*>')",5
+E2,"('program', 'interrupt:', 'unimplemented', 'operation..', '<*>')",2
+E3,"('guaranteed', 'instruction', 'cache', 'block', 'touch.0')",2
+E4,"('critical', 'input', 'interrupt', 'enable..', '<*>')",1
+E5,"('rts', 'panic!', '-', 'stopping', 'execution')",2
+E6,"('<*>', 'floating', 'point', 'alignment', 'exceptions')",121
+E7,"('NodeCard', 'is', 'not', 'fully', 'functional')",1
+E8,"('<*>', '0xffffffff', 'ffffffff', 'ffffffff', 'ffffffff')",1
+E9,"('<*>', 'double-hummer', 'alignment', 'exceptions')",109
+E10,"('data', 'TLB', 'error', 'interrupt')",60
+E11,"('exception', 'syndrome', 'register:', '<*>')",6
+E12,"('machine', 'state', 'register:', '<*>')",4
+E13,"('core', 'configuration', 'register:', '<*>')",7
+E14,"('<*>', '<*>', '<*>', '<*>')",1
+E15,"('Machine', 'State', 'Register:', '<*>')",1
+E16,"('iar', '<*>', 'dear', '<*>')",208
+E17,"('CE', 'sym', '<*>', 'at', '<*>', 'mask', '<*>')",92
+E18,"('program', 'interrupt:', 'illegal', 'instruction..', '..', '..', '<*>')",8
+E19,"('program', 'interrupt:', 'imprecise', 'exception..', '..', '..', '<*>')",5
+E20,"('instruction', 'address', 'space..', '..', '..', '..', '<*>')",1
+E21,"('ciod:', 'LOGIN', 'chdir(', '/p/gb1/stella/RAPTOR/2183)', 'failed:', 'Input/output', 'error')",1
+E22,"('ciod:', 'failed', 'to', 'read', 'message', 'prefix', 'on', 'control', 'stream', '(', 'CioStream', 'socket', 'to', '<*>')",3
+E23,"('New', 'ido', 'chip', 'inserted', 'into', 'the', 'database:', '<*>', 'ip=', '<*>', 'v=', '<*>', 't=', '<*>')",3
+E24,"('<*>', 'ddr', 'errors(', 's)', 'detected', 'and', 'corrected', 'on', 'rank', '<*>', 'symbol', '<*>', 'bit', '<*>')",18
+E25,"('machine', 'check:', 'i-fetch..', '..', '..', '..', '..', '..', '..', '..', '..', '..', '..', '<*>')",5
+E26,"('auxiliary', 'processor..', '..', '..', '..', '..', '..', '..', '..', '..', '..', '..', '..', '<*>')",5
+E27,"('ciod:', 'Error', 'loading', '<*>', 'invalid', 'or', 'missing', 'program', 'image,', 'No', 'such', 'file', 'or', 'directory')",21
+E28,"('<*>', 'torus', 'receiver', 'z+', 'input', 'pipe', 'error(', 's)', '(', 'dcr', '<*>', 'detected', 'and', 'corrected')",2
+E29,"('<*>', 'torus', 'receiver', 'x+', 'input', 'pipe', 'error(', 's)', '(', 'dcr', '<*>', 'detected', 'and', 'corrected')",1
+E30,"('<*>', 'torus', 'receiver', 'y+', 'input', 'pipe', 'error(', 's)', '(', 'dcr', '<*>', 'detected', 'and', 'corrected')",1
+E31,"('critical', 'input', 'interrupt', '(', 'unit=', '<*>', 'bit=', '<*>', ':', 'warning', 'for', 'torus', 'y+', 'wire')",1
+E32,"('critical', 'input', 'interrupt', '(', 'unit=', '<*>', 'bit=', '<*>', ':', 'warning', 'for', 'torus', 'z-', 'wire')",1
+E33,"('ciod:', 'Error', 'reading', 'message', 'prefix', 'on', 'CioStream', 'socket', 'to', '<*>', 'Connection', 'reset', 'by', 'peer')",4
+E34,"('ciod:', 'Error', 'reading', 'message', 'prefix', 'on', 'CioStream', 'socket', 'to', '<*>', 'Link', 'has', 'been', 'severed')",8
+E35,"('fraction', 'rounded..', '..', '..', '..', '..', '..', '..', '..', '..', '..', '..', '..', '<*>')",1
+E36,"('<*>', '<*>', 'EDRAM', 'error(', 's)', '(', 'dcr', '<*>', 'detected', 'and', 'corrected', 'over', '<*>', 'seconds')",1
+E37,"('generating', '<*>')",721
+E38,"('program', 'interrupt')",3
+E39,"('shutdown', 'complete')",1
+E40,"('force', 'load/store', 'alignment..', '..', '..', '..', '..', '..', '..', '<*>')",2
+E41,"('ciod:', 'cpu', '<*>', 'at', 'treeaddr', '<*>', 'sent', 'unrecognized', 'message', '0xffffffff')",1
+E42,"('ciod:', 'LOGIN', 'chdir(', '<*>', 'failed:', 'No', 'such', 'file', 'or', 'directory')",18
+E43,"('data', 'store', 'interrupt', 'caused', 'by', 'dcbf..', '..', '..', '..', '<*>')",5
+E44,"('data', 'store', 'interrupt', 'caused', 'by', 'icbi..', '..', '..', '..', '<*>')",5
+E45,"('machine', 'check', 'enable..', '..', '..', '..', '..', '..', '..', '<*>')",2
+E46,"('ciod:', 'Error', 'creating', 'node', 'map', 'from', 'file', '/home/pakin1/sweep3d-2.2b/results/random1-8x32x32x2.map:', 'Permission', 'denied')",1
+E47,"('ciod:', 'Received', 'signal', '<*>', 'code=', '<*>', 'errno=', '<*>', 'address=', '<*>')",16
+E48,"('ciod:', 'Message', 'code', '<*>', 'is', 'not', '<*>', 'or', '<*>')",1
+E49,"('floating', 'pt', 'ex', 'mode', '<*>', 'enable..', '..', '..', '<*>')",5
+E50,"('debug', 'interrupt', 'enable..', '..', '..', '..', '..', '..', '<*>')",1
+E51,"('guaranteed', 'data', 'cache', 'block', 'touch..', '..', '..', '..', '<*>')",1
+E52,"('total', 'of', '<*>', 'ddr', 'error(', 's)', 'detected', 'and', 'corrected')",13
+E53,"('data', 'cache', 'search', 'parity', 'error', 'detected.', 'attempting', 'to', 'correct')",6
+E54,"('Lustre', 'mount', 'FAILED', ':', 'bglio78', ':', 'block_id', ':', 'location')",1
+E55,"('Lustre', 'mount', 'FAILED', ':', '<*>', ':', 'block_id', ':', 'location')",1
+E56,"('data', 'storage', 'interrupt')",30
+E57,"('data', 'address:', '<*>')",8
+E58,"('instruction', 'address:', '<*>')",21
+E59,"('special', 'purpose', 'registers:')",1
+E60,"('rts', 'internal', 'error')",1
+E61,"('program', 'interrupt:', 'trap', 'instruction..', '..', '..', '..', '<*>')",1
+E62,"('Can', 'not', 'get', 'assembly', 'information', 'for', 'node', 'card')",6
+E63,"('ciod:', 'generated', '<*>', 'core', 'files', 'for', 'program', '<*>')",30
+E64,"('Lustre', 'mount', 'FAILED', ':', '<*>', ':', 'point', '/p/gb1')",9
+E65,"('<*>', '<*>', '<*>', '<*>', '<*>', '<*>', '<*>', '<*>')",1
+E66,"('store', 'operation..', '..', '..', '..', '..', '..', '..', '..', '..', '..', '..', '..', '..', '..', '<*>')",2
+E67,"('ciod:', 'duplicate', 'canonical-rank', '<*>', 'to', 'logical-rank', '<*>', 'mapping', 'at', 'line', '<*>', 'of', 'node', 'map', 'file', '/p/gb2/pakin1/sweep3d-5x5x400-10mk-3mmi-1024pes-sweep/sweep.map')",1
+E68,"('ciod:', 'Z', 'coordinate', '<*>', 'exceeds', 'physical', 'dimension', '<*>', 'at', 'line', '<*>', 'of', 'node', 'map', 'file', '/p/gb2/pakin1/contention-32768cpes-torus/xyzt-1x1x32768x1.map')",1
+E69,"('ciod:', 'Error', 'reading', 'message', 'prefix', 'after', 'LOAD_MESSAGE', 'on', 'CioStream', 'socket', 'to', '<*>', 'Link', 'has', 'been', 'severed')",9
+E70,"('<*>', 'torus', 'sender', 'z-', 'retransmission', 'error(', 's)', '(', 'dcr', '<*>', 'detected', 'and', 'corrected', 'over', '<*>', 'seconds')",2
+E71,"('<*>', 'tree', 'receiver', '<*>', 'in', 're-synch', 'state', 'event(', 's)', '(', 'dcr', '<*>', 'detected', 'over', '<*>', 'seconds')",2
+E72,"('problem', 'state', '(', '<*>', 'sup,', '<*>', 'usr)', '..', '..', '..', '<*>')",3
+E73,"('data', 'address', 'space..', '..', '..', '..', '..', '..', '..', '..', '<*>')",5
+E74,"('program', 'interrupt:', 'fp', 'cr', 'update..', '..', '..', '..', '..', '..', '<*>')",1
+E75,"('icache', 'prefetch', 'threshold..', '..', '..', '..', '..', '..', '..', '..', '<*>')",2
+E76,"('wait', 'state', 'enable..', '..', '..', '..', '..', '..', '..', '..', '<*>')",1
+E77,"('debug', 'wait', 'enable..', '..', '..', '..', '..', '..', '..', '..', '<*>')",2
+E78,"('ciod:', 'Error', 'creating', 'node', 'map', 'from', 'file', '/p/gb2/cabot/miranda/newmaps/8k_128x64x1_8x4x4.map:', 'No', 'child', 'processes')",1
+E79,"('ciod:', 'Error', 'creating', 'node', 'map', 'from', 'file', '<*>', 'Bad', 'file', 'descriptor')",1
+E80,"('ciod:', 'Error', 'creating', 'node', 'map', 'from', 'file', '/p/gb2/pakin1/sweep3d-5x5x400-10mk-3mmi-1024pes-xyzt/xyzt.map:', 'Block', 'device', 'required')",1
+E81,"('ciod:', 'Error', 'loading', '<*>', 'invalid', 'or', 'missing', 'program', 'image,', 'Permission', 'denied')",19
+E82,"('<*>', '<*>', 'EDRAM', 'error(', 's)', '(', 'dcr', '<*>', 'detected', 'and', 'corrected')",1
+E83,"('ciod:', 'Error', 'loading', '/g/g24/buber/Yunsic/BlueGene/partad.develf/taddriver.32.exe:', 'program', 'image', 'too', 'big,', '<*>', '>', '<*>')",1
+E84,"('floating', 'point', 'instr.', 'enabled..', '..', '<*>')",4
+E85,"('Node', 'card', 'is', 'not', 'fully', 'functional')",6
+E86,"('rts:', 'kernel', 'terminated', 'for', 'reason', '<*>')",6
+E87,"('ciod:', 'pollControlDescriptors:', 'Detected', 'the', 'debugger', 'died.')",3
+E88,"('suppressing', 'further', 'interrupts', 'of', 'same', 'type')",2
+E89,"('dbcr0=', '<*>', 'dbsr=', '<*>', 'ccr0=', '<*>')",1
+E90,"('byte', 'ordering', 'exception..', '..', '..', '..', '..', '..', '..', '..', '..', '..', '<*>')",2
+E91,"('icache', 'prefetch', 'depth..', '..', '..', '..', '..', '..', '..', '..', '..', '..', '<*>')",1
+E92,"('ciod:', 'Missing', 'or', 'invalid', 'fields', 'on', 'line', '<*>', 'of', 'node', 'map', 'file', '/home/auselton/bgl/64mps.sequential.mapfile')",1
+E93,"('ciod:', 'Missing', 'or', 'invalid', 'fields', 'on', 'line', '<*>', 'of', 'node', 'map', 'file', '/home/auselton/bgl/mapfiles/bgl.128mps.f64.map')",1
+E94,"('<*>', 'tree', 'receiver', '<*>', 'in', 're-synch', 'state', 'event(', 's)', '(', 'dcr', '<*>', 'detected')",3
+E95,"('MACHINE', 'CHECK', 'DCR', 'read', 'timeout', '(', 'mc=', '<*>', 'iar', '<*>', 'lr', '<*>', '')",7
+E96,"('ciod:', 'Error', 'reading', 'message', 'prefix', 'on', 'CioStream', 'socket', 'to', '<*>', 'Connection', 'timed', 'out')",2
+E97,"('size', 'of', 'scratchpad', 'portion', 'of', 'L3..', '..', '..', '..', '<*>', '(', '<*>', '')",1
+E98,"('program', 'interrupt:', 'fp', 'cr', 'field', '..', '..', '..', '..', '..', '..', '<*>')",4
+E99,"('disable', 'store', 'gathering..', '..', '..', '..', '..', '..', '..', '..', '..', '<*>')",3
+E100,"('ciod:', 'Error', 'loading', '/bgl/apps/scaletest/performance/MINIBEN/mb_243_0810/allreduce.rts:', 'invalid', 'or', 'missing', 'program', 'image,', 'Exec', 'format', 'error')",15
+E101,"('ciod:', 'Error', 'loading', '/bgl/apps/followup/RAPTOR/new.raptor.trace:', 'invalid', 'or', 'missing', 'program', 'image,', 'Exec', 'format', 'error')",2
+E102,"('NFS', 'Mount', 'failed', 'on', '<*>', 'slept', '<*>', 'seconds,', 'retrying', '(', '<*>', '')",1
+E103,"('NFS', 'Mount', 'failed', 'on', 'bglio91,', 'slept', '<*>', 'seconds,', 'retrying', '(', '<*>', '')",1
+E104,"('total', 'of', '<*>', 'ddr', 'error(', 's)', 'detected', 'and', 'corrected', 'over', '<*>', 'seconds')",4
+E105,"('minus', 'normalized', 'number..', '..', '..', '..', '..', '..', '..', '..', '..', '<*>')",1
+E106,"('Ido', 'chip', 'status', 'changed:', '<*>', 'ip=', '<*>', 'v=', '<*>', 't=', '<*>', 'status=', 'M', 'Fri', 'Jul', '<*>', '<*>', 'PDT', '<*>')",1
+E107,"('Ido', 'chip', 'status', 'changed:', '<*>', 'ip=', '<*>', 'v=', '<*>', 't=', '<*>', 'status=', 'M', 'Thu', 'Aug', '<*>', '<*>', 'PDT', '<*>')",2
+E108,"('Ido', 'chip', 'status', 'changed:', '<*>', 'ip=', '<*>', 'v=', '<*>', 't=', '<*>', 'status=', 'M', 'Tue', 'Aug', '<*>', '<*>', 'PDT', '<*>')",1
+E109,"('Ido', 'chip', 'status', 'changed:', '<*>', 'ip=', '<*>', 'v=', '<*>', 't=', '<*>', 'status=', 'M', 'Sat', 'Sep', '<*>', '<*>', 'PDT', '<*>')",1
+E110,"('rts:', 'kernel', 'terminated', 'for', 'reason', '<*>', 'bad', 'message', 'header:', 'invalid', 'cpu,', 'type=', '<*>', 'cpu=', '<*>', 'index=', '<*>', 'total=', '<*>')",1
+E111,"('Node', 'card', 'VPD', 'check:', '<*>', 'node', 'in', 'processor', 'card', 'slot', '<*>', 'do', 'not', 'match.', 'VPD', 'ecid', '<*>', 'found', '<*>')",9
+E112,"('idoproxydb', 'hit', 'ASSERT', 'condition:', 'ASSERT', 'expression=', '<*>', 'Source', 'file=', 'idotransportmgr.cpp', 'Source', 'line=', '<*>', 'Function=', 'int', 'IdoTransportMgr::SendPacket(', 'IdoUdpMgr*,', 'BglCtlPavTrace*)', '')",35
+E113,"('Node', 'card', 'status:', 'ALERT', '<*>', 'ALERT', '<*>', 'ALERT', '<*>', 'ALERT', '<*>', 'is', '(', 'are)', 'active.', 'Clock', 'Mode', 'is', 'Low.', 'Clock', 'Select', 'is', 'Midplane.', 'Phy', 'JTAG', 'Reset', 'is', 'asserted.', 'ASIC', 'JTAG', 'Reset', 'is', 'not', 'asserted.', 'Temperature', 'Mask', 'is', 'not', 'active.', 'No', 'temperature', 'error.', 'Temperature', 'Limit', 'Error', 'Latch', 'is', 'clear.', 'PGOOD', 'is', 'asserted.', 'PGOOD', 'error', 'latch', 'is', 'clear.', 'MPGOOD', 'is', 'OK.', 'MPGOOD', 'error', 'latch', 'is', 'clear.', 'The', '<*>', 'volt', 'rail', 'is', 'OK.', 'The', '<*>', 'volt', 'rail', 'is', 'OK.')",1
+E114,"('Node', 'card', 'status:', 'no', 'ALERTs', 'are', 'active.', 'Clock', 'Mode', 'is', 'Low.', 'Clock', 'Select', 'is', 'Midplane.', 'Phy', 'JTAG', 'Reset', 'is', 'asserted.', 'ASIC', 'JTAG', 'Reset', 'is', 'asserted.', 'Temperature', 'Mask', 'is', 'not', 'active.', 'No', 'temperature', 'error.', 'Temperature', 'Limit', 'Error', 'Latch', 'is', 'clear.', 'PGOOD', 'IS', 'NOT', 'ASSERTED.', 'PGOOD', 'ERROR', 'LATCH', 'IS', 'ACTIVE.', 'MPGOOD', 'IS', 'NOT', 'OK.', 'MPGOOD', 'ERROR', 'LATCH', 'IS', 'ACTIVE.', 'The', '<*>', 'volt', 'rail', 'is', 'OK.', 'The', '<*>', 'volt', 'rail', 'is', 'OK.')",5
+E115,"('PrepareForService', 'shutting', 'down', 'NodeCard(', 'mLctn(', '<*>', ',', 'mCardSernum(', '<*>', ',', 'mLp(', '<*>', ',', 'mIp(', '<*>', ',', 'mType(', '<*>', ')', 'as', 'part', 'of', 'Service', 'Action', '<*>')",1
+E116,"('rts:', 'bad', 'message', 'header:', 'expecting', 'type', '<*>', 'instead', 'of', 'type', '<*>', '(', 'softheader=', '<*>', '<*>', '<*>', '<*>', 'PSR0=', '<*>', 'PSR1=', '<*>', 'PRXF=', '<*>', 'PIXF=', '<*>')",1
+E117,"('<*>', 'microseconds', 'spent', 'in', 'the', 'rbs', 'signal', 'handler', 'during', '<*>', 'calls.', '<*>', 'microseconds', 'was', 'the', 'maximum', 'time', 'for', 'a', 'single', 'instance', 'of', 'a', 'correctable', 'ddr.')",51
+E118,"('rts', 'tree/torus', 'link', 'training', 'failed:', 'wanted:', 'B', 'C', 'X+', 'X-', 'Y+', 'Y-', 'Z+', 'Z-', 'got:', 'B', 'C', 'X-', 'Y-', 'Z+', 'Z-')",1
+E119,"('ciod:', 'In', 'packet', 'from', 'node', '<*>', '(', '<*>', ',', 'message', 'code', '<*>', 'is', 'not', '<*>', 'or', '<*>', '(', 'softheader=', '<*>', '<*>', '<*>', '<*>', '')",1
+E120,"('<*>', 'total', 'interrupts.', '<*>', 'critical', 'input', 'interrupts.', '<*>', 'microseconds', 'total', 'spent', 'on', 'critical', 'input', 'interrupts,', '<*>', 'microseconds', 'max', 'time', 'in', 'a', 'critical', 'input', 'interrupt.')",71
+E121,"('Error', 'receiving', 'packet', 'on', 'tree', 'network,', 'expecting', 'type', '<*>', 'instead', 'of', 'type', '<*>', '(', 'softheader=', '<*>', '<*>', '<*>', '<*>', 'PSR0=', '<*>', 'PSR1=', '<*>', 'PRXF=', '<*>', 'PIXF=', '<*>')",5
+E122,"('critical', 'input', 'interrupt', '(', 'unit=', '<*>', 'bit=', '<*>', ':', 'warning', 'for', 'torus', 'z+', 'wire,', 'suppressing', 'further', 'interrupts', 'of', 'same', 'type')",2
+E123,"('critical', 'input', 'interrupt', '(', 'unit=', '<*>', 'bit=', '<*>', ':', 'warning', 'for', 'tree', '<*>', 'wire,', 'suppressing', 'further', 'interrupts', 'of', 'same', 'type')",1
+E124,"('<*>', 'ddr', 'error(', 's)', 'detected', 'and', 'corrected', 'on', 'rank', '<*>', 'symbol', '<*>', 'over', '<*>', 'seconds')",7
+E125,"('PrepareForService', 'shutting', 'down', 'Node', 'card(', 'mLctn(', '<*>', ',', 'mCardSernum(', '<*>', ',', 'mLp(', '<*>', ',', 'mIp(', '<*>', ',', 'mType(', '<*>', ')', 'as', 'part', 'of', 'Service', 'Action', '<*>')",1
+E126,"('Kernel', 'detected', '<*>', 'integer', 'alignment', 'exceptions', '(', '<*>', 'iar', '<*>', 'dear', '<*>', '(', '<*>', 'iar', '<*>', 'dear', '<*>', '(', '<*>', 'iar', '<*>', 'dear', '<*>', '(', '<*>', 'iar', '<*>', 'dear', '<*>', '(', '<*>', 'iar', '<*>', 'dear', '<*>', '(', '<*>', 'iar', '<*>', 'dear', '<*>', '(', '<*>', 'iar', '<*>', 'dear', '<*>', '(', '<*>', 'iar', '<*>', 'dear', '<*>')",9

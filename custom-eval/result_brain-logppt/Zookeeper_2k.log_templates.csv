@@ -1,0 +1,50 @@
+EventId,EventTemplate
+E0,Notification time out: <*>
+E1,Received connection request <*>:<*>
+E2,Send worker leaving thread
+E3,Server environment:<*>
+E4,<*>:<*>
+E5,autopurge.snapRetainCount set to <*>
+E6,tickTime set to <*>
+E7,Snapshotting: <*> to <*>
+E8,Snapshotting: <*> to <*>
+E9,autopurge.purgeInterval set to <*>
+E10,maxSessionTimeout set to <*>
+E11,minSessionTimeout set to <*>
+E12,Interrupted while waiting for message on queue
+E13,"Expiring session <*>, timeout of <*> exceeded"
+E14,FOLLOWING - LEADER ELECTION TOOK - <*>
+E15,Follower sid: <*> : <*> : <*>
+E16,"Connection broken for id <*>, my id = <*>, error ="
+E17,Exception causing close of session <*> due to java.io.IOException: ZooKeeperServer not running
+E18,Server environment:<*>
+E19,Have quorum of supporters; starting up and setting last processed zxid: <*>
+E20,Interrupting SendWorker
+E21,Sending DIFF
+E22,Closed socket connection for client <*>:<*> which had sessionid <*>
+E23,Established session <*> with negotiated timeout <*> for client <*>:<*>
+E24,"Have smaller server identifier, so dropping the connection: (<*>, <*>)"
+E25,"Server environment:<*>, built on <*>:<*>"
+E26,caught end of stream exception
+E27,Accepted socket connection from <*>:<*>
+E28,My election bind port: <*>:<*>
+E29,Server environment:<*>
+E30,shutdown of request processor complete
+E31,Getting a snapshot from leader
+E32,Client attempting to renew session <*> at <*>:<*>
+E33,Client attempting to establish new session at <*>:<*>
+E34,Unexpected exception causing shutdown while sock still open
+E35,Unexpected Exception:
+E36,Starting quorum peer
+E37,Revalidating client: <*>
+E38,First is <*>
+E39,Reading snapshot <*>
+E40,Connection request from old client <*>:<*>; will be dropped if server is in r-o mode
+E41,Cannot open channel to <*> at election address <*>:<*>
+E42,"New election. My id = <*>, proposed zxid=<*>"
+E43,Processed session termination for sessionid: <*>
+E44,LOOKING
+E45,FOLLOWING
+E46,"Notification: <*> (n.leader), <*> (n.zxid), <*> (n.round), LOOKING (n.state), <*> (n.sid), <*> (n.peerEPoch), LOOKING (my state)"
+E47,Closed socket connection for client <*>:<*> (no session established for client)
+E48,Got user-level KeeperException when processing sessionid:<*> type:create cxid:<*> zxid:<*> txntype<*> reqpath:<*> Error Path<*> Error:KeeperErrorCode = NodeExists for <*>

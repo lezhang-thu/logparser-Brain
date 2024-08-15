@@ -1,0 +1,28 @@
+EventId,EventTemplate,Occurrences
+E0,"('reverse', 'mapping', 'checking', 'getaddrinfo', 'for', '<*>', '<*>', 'failed', '-', 'POSSIBLE', 'BREAK-IN', 'ATTEMPT!')",85
+E1,"('PAM', '<*>', 'more', 'authentication', 'failures;', 'logname=', 'uid=0', 'euid=0', 'tty=ssh', 'ruser=', '<*>', 'user=root')",2
+E2,"('Invalid', '<*>', '<*>', 'from', '<*>')",113
+E3,"('input_userauth_request:', 'invalid', '<*>', '<*>', '[preauth]')",113
+E4,"('pam_unix(sshd:auth):', 'check', 'pass;', 'user', 'unknown')",135
+E5,"('Connection', 'closed', 'by', '<*>', '[preauth]')",34
+E6,"('pam_unix(sshd:auth):', 'authentication', 'failure;', 'logname=', 'uid=0', 'euid=0', 'tty=ssh', 'ruser=', '<*>')",110
+E7,"('Failed', 'password', 'for', '<*>', 'from', '<*>', 'port', '<*>', 'ssh2')",383
+E8,"('Accepted', 'password', 'for', 'fztu', 'from', '<*>', 'port', '<*>', 'ssh2')",1
+E9,"('Failed', 'password', 'for', 'invalid', '<*>', '<*>', 'from', '<*>', 'port', '<*>', 'ssh2')",135
+E10,"('Failed', 'none', 'for', 'invalid', '<*>', '<*>', 'from', '<*>', 'port', '<*>', 'ssh2')",4
+E11,"('Received', 'disconnect', 'from', '<*>', '<*>', 'Closed', 'due', 'to', 'user', 'request.', '[preauth]')",7
+E12,"('PAM', '<*>', 'more', 'authentication', 'failures;', 'logname=', 'uid=0', 'euid=0', 'tty=ssh', 'ruser=', '<*>')",6
+E13,"('PAM', '<*>', 'more', 'authentication', 'failure;', 'logname=', 'uid=0', 'euid=0', 'tty=ssh', 'ruser=', '<*>')",2
+E14,"('Received', 'disconnect', 'from', '<*>', '<*>', 'Bye', 'Bye', '[preauth]')",413
+E15,"('Received', 'disconnect', 'from', '<*>', '<*>', 'disconnected', 'by', 'user')",1
+E16,"('Disconnecting:', 'Too', 'many', 'authentication', 'failures', 'for', 'root', '[preauth]')",2
+E17,"('Disconnecting:', 'Too', 'many', 'authentication', 'failures', 'for', 'admin', '[preauth]')",1
+E18,"('PAM', 'service(sshd)', 'ignoring', 'max', 'retries;', '<*>', '>', '<*>')",7
+E19,"('pam_unix(sshd:session):', 'session', 'opened', 'for', 'user', 'fztu', 'by', '(uid=0)')",1
+E20,"('fatal:', 'Write', 'failed:', 'Connection', 'reset', 'by', 'peer', '[preauth]')",1
+E21,"('pam_unix(sshd:auth):', 'authentication', 'failure;', 'logname=', 'uid=0', 'euid=0', 'tty=ssh', 'ruser=', '<*>', '<*>')",384
+E22,"('error:', 'Received', 'disconnect', 'from', '<*>', '<*>', '<*>', 'Auth', 'fail', '[preauth]')",2
+E23,"('message', 'repeated', '<*>', 'times:', '[', 'Failed', 'password', 'for', 'root', 'from', '<*>', 'port', '<*>', 'ssh2]')",2
+E24,"('Did', 'not', 'receive', 'identification', 'string', 'from', '<*>')",10
+E25,"('error:', 'Received', 'disconnect', 'from', '<*>', '<*>', 'No', 'more', 'user', 'authentication', 'methods', 'available.', '[preauth]')",45
+E26,"('pam_unix(sshd:session):', 'session', 'closed', 'for', 'user', 'fztu')",1

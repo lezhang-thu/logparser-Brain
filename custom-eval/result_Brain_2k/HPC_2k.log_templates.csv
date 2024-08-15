@@ -1,0 +1,51 @@
+EventId,EventTemplate,Occurrences
+E0,"('Component', 'State', 'Change:', 'Component', '<*>', 'WWID:', '<*>', '<*>', '<*>', '<*>', '<*>', '<*>', '<*>', '<*>', '<*>', 'is', 'in', 'the', 'unavailable', 'state', '(HWID=', '<*>')",1
+E1,"('inconsistent', 'nodesets', 'node-', '<*>', '0x1fffffffe', '<ok>', 'node-', '<*>', '0xfffffffe', '<ok>', 'node-', '<*>', '0xfffffffe', '<ok>', 'node-', '<*>', '0xfffffffe', '<ok>', 'node-', '<*>', '0xfffffffe', '<ok>')",1
+E2,"('Component', 'State', 'Change:', 'Component', '<*>', 'is', 'in', 'the', 'unavailable', 'state', '(HWID=', '<*>')",11
+E3,"('ClusterFileSystem:', 'ServerFileSystem', 'domain', '<*>', 'is', 'no', 'longer', 'served', 'by', 'node', 'node-', '<*>')",36
+E4,"('clusterAddMember', '(command', '<*>')",2
+E5,"('risBoot', '(command', '<*>')",1
+E6,"('bootGenvmunix', '(command', '<*>')",2
+E7,"('boot', '(command', '<*>')",67
+E8,"('wait', '(command', '<*>')",66
+E9,"('halt', '(command', '<*>')",3
+E10,"('Link', 'in', 'reset')",9
+E11,"('Failed', 'subcommands', '<*>')",1
+E12,"('Command', 'has', 'completed', 'successfully')",10
+E13,"('Command', 'has', 'been', 'aborted')",1
+E14,"('psu', 'failure\\', 'ambient=', '<*>')",5
+E15,"('Linkerror', 'event', 'interval', 'expired')",394
+E16,"('link', 'errors', 'remain', 'current')",56
+E17,"('Targeting', 'domains:', 'node-', '<*>', 'and', 'nodes:', 'node-', '<*>', '<*>', 'child', 'of', 'command', '<*>')",5
+E18,"('Targeting', 'domains:', 'node-', '<*>', 'and', 'nodes:', 'node-', '<*>', '<*>', '<*>')",1
+E19,"('Targeting', 'domains:', 'node-', 'D[0\\', '<*>', 'and', 'nodes:', 'node-', '<*>', '<*>')",1
+E20,"('Fan', 'speeds', '(', '<*>', '<*>', '<*>', '<*>', '<*>', '<*>', ')')",90
+E21,"('Link', 'error', 'on', 'broadcast', 'tree', 'Interconnect-', '<*>', '<*>', '<*>', '<*>')",4
+E22,"('Targeting', 'domains:', 'node-', '<*>', 'and', 'nodes:', 'node-', '<*>')",2
+E23,"('boot', '(command', '<*>', 'Error:', 'HALT', 'asserted\\', 'cannot', 'continue')",1
+E24,"('Temperature', '<*>', 'exceeds', 'warning', 'threshold')",2
+E25,"('ClusterFileSystem:', 'There', 'is', 'no', 'server', 'for', 'ServerFileSystem', 'domain', '<*>')",32
+E26,"('ServerFileSystem:', 'An', 'ServerFileSystem', 'domain', 'panic', 'has', 'occurred', 'on', '<*>')",1
+E27,"('NIFF:', 'node', 'node-', '<*>', 'detected', 'a', 'failed', 'network', 'connection', 'on', 'network', '<*>', 'via', 'interface', 'alt0')",2
+E28,"('power/control', 'problem')",1
+E29,"('Link', 'error')",13
+E30,"('Link', 'ok')",13
+E31,"('not', 'responding')",60
+E32,"('configured', 'out')",91
+E33,"('not-', 'responding')",1
+E34,"('ambient=', '<*>')",292
+E35,"('ServerFileSystem:', 'ServerFileSystem', 'domain', '<*>', 'is', 'full')",12
+E36,"('running',)",162
+E37,"('blocked',)",15
+E38,"('active',)",5
+E39,"('starting',)",1
+E40,"('closing',)",1
+E41,"('normal',)",206
+E42,"('warning',)",205
+E43,"('critical',)",20
+E44,"('inconsistent', 'nodesets', 'node-', '<*>', '<*>', '<ok>', 'node-', '<*>', '<*>', '<ok>', 'node-', '<*>', '<*>', '<ok>', 'node-', '<*>', '<*>', '<ok>')",2
+E45,"('inconsistent', 'nodesets', 'node-', '<*>', '<*>', '<ok>', 'node-', '<*>', '<*>', '<ok>', 'node-', '<*>', '<*>', '<ok>', 'node-', '<*>', '<*>', '<ok>', 'node-', '<*>', '<*>', '<ok>', 'node-', '<*>', '<*>', '<ok>', 'node-', '<*>', '<*>', '<ok>', 'node-', '<*>', '<*>', '<ok>', 'node-', '<*>', '<*>', '<ok>', 'node-', '<*>', '<*>', '<ok>', 'node-', '<*>', '<*>', '<ok>', 'node-', '<*>', '<*>', '<ok>', 'node-', '<*>', '<*>', '<ok>')",1
+E46,"('risBoot', '(command', '<*>', 'Error:', 'Timed', 'out', 'while', 'waiting', 'for', 'SRM', 'prompt:', '<ABORT', 'code', 'completed>')",1
+E47,"('NIFF:', 'node', 'node-', '<*>', 'has', 'detected', 'an', 'available', 'network', 'connection', 'on', 'network', '<*>', 'via', 'interface', '<*>')",45
+E48,"('NIFF:', 'node', 'node-', '<*>', 'has', 'detected', 'an', 'available', 'network', 'connection', 'on', 'network', '<*>', 'via', 'interface', 'alt0')",44
+E49,"('NIFF:', 'node', 'node-', '<*>', 'has', 'detected', 'an', 'available', 'network', 'connection', 'on', 'network', '<*>', 'via', 'interface', 'scip0')",2

@@ -1,0 +1,50 @@
+EventId,EventTemplate,Occurrences
+E0,"('Notification', 'time', 'out:', '<*>')",37
+E1,"('Received', 'connection', 'request', '<*>')",299
+E2,"('Send', 'worker', 'leaving', 'thread')",262
+E3,"('Server', 'environment:', '<*>', '<*>')",7
+E4,"('*******', 'GOODBYE', '<*>', '********')",19
+E5,"('autopurge.snapRetainCount', '<*>', 'to', '<*>')",1
+E6,"('tickTime', '<*>', 'to', '<*>')",1
+E7,"('Snapshotting:', '<*>', 'to', '/var/lib/zookeeper/version-2/snapshot.300000dcd')",1
+E8,"('Snapshotting:', '<*>', 'to', '/var/lib/zookeeper/version-2/snapshot.50000062e')",1
+E9,"('autopurge.purgeInterval', 'set', 'to', '<*>')",3
+E10,"('maxSessionTimeout', 'set', 'to', '<*>')",1
+E11,"('minSessionTimeout', 'set', 'to', '<*>')",2
+E12,"('Interrupted', 'while', 'waiting', 'for', 'message', 'on', 'queue')",314
+E13,"('Expiring', 'session', '<*>', 'timeout', 'of', '<*>', 'exceeded')",40
+E14,"('FOLLOWING', '-', 'LEADER', 'ELECTION', 'TOOK', '-', '<*>')",2
+E15,"('Follower', 'sid:', '<*>', ':', 'info', ':', 'org.apache.zookeeper.server.quorum.QuorumPeer$QuorumServer@33557fe4')",1
+E16,"('Connection', 'broken', 'for', 'id', '<*>', 'my', 'id', '=', '<*>', 'error', '=', '')",291
+E17,"('Exception', 'causing', 'close', 'of', 'session', '<*>', 'due', 'to', 'java.io.IOException:', 'ZooKeeperServer', 'not', 'running')",3
+E18,"('Server', 'environment:', 'java.class.path=', '/etc/zookeeper/conf:', '/usr/share/java/jline.jar:', '/usr/share/java/log4j-1.2.jar:', '/usr/share/java/xercesImpl.jar:', '/usr/share/java/xmlParserAPIs.jar:', '/usr/share/java/netty.jar:', '/usr/share/java/slf4j-api.jar:', '/usr/share/java/slf4j-log4j12.jar:', '/usr/share/java/zookeeper.jar')",1
+E19,"('Have', 'quorum', 'of', 'supporters;', 'starting', 'up', 'and', 'setting', 'last', 'processed', 'zxid:', '<*>')",1
+E20,"('Interrupting', 'SendWorker')",266
+E21,"('Sending', 'DIFF')",1
+E22,"('Closed', 'socket', 'connection', 'for', 'client', '<*>', 'which', 'had', 'sessionid', '<*>')",44
+E23,"('Established', 'session', '<*>', 'with', 'negotiated', 'timeout', '<*>', 'for', 'client', '<*>')",50
+E24,"('Have', 'smaller', 'server', 'identifier,', 'so', 'dropping', 'the', 'connection:', '<*>', '<*>')",1
+E25,"('Server', 'environment:', 'zookeeper.version=', '<*>', 'built', 'on', '<*>', '<*>', '<*>', 'GMT')",1
+E26,"('caught', 'end', 'of', 'stream', 'exception')",37
+E27,"('Accepted', 'socket', 'connection', 'from', '<*>')",48
+E28,"('My', 'election', 'bind', 'port:', '<*>')",1
+E29,"('Server', 'environment:', 'java.vendor=', 'Oracle', 'Corporation')",2
+E30,"('shutdown', 'of', 'request', 'processor', 'complete')",1
+E31,"('Getting', 'a', 'snapshot', 'from', 'leader')",2
+E32,"('Client', 'attempting', 'to', 'renew', '<*>', '<*>', 'at', '<*>')",3
+E33,"('Client', 'attempting', 'to', 'establish', 'new', '<*>', 'at', '<*>')",41
+E34,"('Unexpected', 'exception', 'causing', 'shutdown', 'while', 'sock', 'still', 'open')",12
+E35,"('Unexpected', 'Exception:', '')",1
+E36,"('Starting', 'quorum', 'peer')",1
+E37,"('Revalidating', 'client:', '<*>')",3
+E38,"('First', 'is', '<*>')",1
+E39,"('Reading', 'snapshot', '/var/lib/zookeeper/version-2/snapshot.b00000084')",1
+E40,"('Connection', 'request', 'from', 'old', 'client', '<*>', 'will', 'be', 'dropped', 'if', 'server', 'is', 'in', 'r-o', 'mode')",39
+E41,"('Cannot', 'open', 'channel', 'to', '<*>', 'at', 'election', 'address', '<*>')",86
+E42,"('New', 'election.', 'My', 'id', '=', '<*>', 'proposed', 'zxid=', '<*>')",1
+E43,"('Processed', 'session', 'termination', 'for', 'sessionid:', '<*>')",47
+E44,"('LOOKING',)",4
+E45,"('FOLLOWING',)",2
+E46,"('Notification:', '<*>', '(n.leader),', '<*>', '(n.zxid),', '<*>', '(n.round),', '<*>', '(n.state),', '<*>', '(n.sid),', '<*>', '(n.peerEPoch),', '<*>', '(my', 'state)')",12
+E47,"('Closed', 'socket', 'connection', 'for', 'client', '<*>', '(no', 'session', 'established', 'for', 'client)')",4
+E48,"('Got', 'user-level', 'KeeperException', 'when', 'processing', 'sessionid:', '<*>', 'type:', 'create', 'cxid:', '<*>', 'zxid:', '<*>', 'txntype:', '<*>', 'reqpath:', 'n/a', 'Error', 'Path:', '/home/curi/.zookeeper', 'Error:', 'KeeperErrorCode', '=', 'NodeExists', 'for', '/home/curi/.zookeeper')",1
