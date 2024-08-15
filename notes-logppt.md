@@ -64,3 +64,23 @@ For those who are interested, it is called **weight tying** or **joint input-out
 注意，对于EntLM，其有：`config.tie_word_embeddings`为`True`
 
 Take me at least **two** days to find this subtlety.
+
+## 对`train_transformer.py`有帮助的代码做一些总结
+
+The first is `tokenizer.add_tokens`.
+
+Next, `model.resize_token_embeddings` is also important!!! (weight tying happens, i.e. is kept, within)
+
+Also, the initialization of these embeddings is also worth noting, i.e., taking the average of the words within the label words set.
+
+Other code implementation is not perfect, so no more for learning.
+
+## Miscellaneous
+
+BERT is of type `BertForMaskedLM`? (the original Google BERT)
+
+So the `forward` function of it includes `input_ids`, `labels`.
+
+The returning result is of type `MaskedLMOutput` (typically), and the first value is `loss`.
+
+The computing for `loss` is of `CrossEntropyLoss`, where we note the `ignore_index=-100`, which explains why `-100` repeatedly appears in the code of `train_transformer.py`.
