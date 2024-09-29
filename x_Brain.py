@@ -73,19 +73,23 @@ class LogParser:
             diff_set = set()
             import pandas as pd
             x = pd.read_csv(self.gt_check_consistency_only)
-            # hack - start
-            if os.path.basename(self.gt_check_consistency_only
-                               ) == "BGL_full.log_structured.csv":
-                self.df_log = x[["Content"]]
-                sentences = self.df_log["Content"].tolist()
-            # hack - end
             x = x["Content"].tolist()
             for j, e in enumerate(x):
                 e = re.sub(r'\s+', ' ', e)
                 x[j] = e.strip()
 
-            for a, b in zip(sentences, x):
+            for a, b, idx in zip(sentences, x, range(len(sentences))):
                 if a != b:
+                    # hack - start
+                    if os.path.basename(self.gt_check_consistency_only
+                                       ) == "BGL_full.log_structured.csv":
+                        sentences[idx] = re.sub(r'Assembly Revision:.*?,',
+                                                'Assembly Revision: A.1,',
+                                                sentences[idx])
+                        print('#' * 20)
+                        print('!!!Change\n{}\nto\n{}'.format(a, sentences[idx]))
+                        continue
+                    # hack - end
                     split_a = a.split()
                     diff_set.add(split_a[0])
                     print('parsed:')
@@ -99,6 +103,7 @@ class LogParser:
                 print('len(diff_set): {}'.format(len(diff_set)))
                 assert False, 'error happens'
         # debug - end
+        self.df_log["Content"] = sentences
         tuple_vector = self.get_frequency_vector(sentences, self.rex,
                                                  self.delimeter)
 
