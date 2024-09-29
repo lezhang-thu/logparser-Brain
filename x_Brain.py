@@ -35,6 +35,7 @@ class LogParser:
         threshold=2,
         delimeter=[],
         rex=[],
+        gt_check_consistency_only=None,
     ):
         self.dataset = logname
         self.logformat = log_format
@@ -44,6 +45,7 @@ class LogParser:
         self.df_log = None
         self.threshold = threshold
         self.delimeter = delimeter
+        self.gt_check_consistency_only = gt_check_consistency_only
 
     def parse(self, logName):
         print("Parsing file: " + os.path.join(self.path, logName))
@@ -53,6 +55,44 @@ class LogParser:
         self.load_data()
 
         sentences = self.df_log["Content"].tolist()
+        # debug - start
+        self.df_log = self.df_log[["Content"]]
+        import re
+        # Define a regular expression to match Chinese characters and punctuation
+        chinese_pattern = r'[\u4e00-\u9fff\u3000-\u303f]+'
+        for k, e in enumerate(sentences):
+            e = re.sub(r'\s+', ' ', e)
+            e = e.strip()
+            # Replace Chinese substrings with "<N/ASCII>"
+            e = re.sub(chinese_pattern, "<N/ASCII>", e)
+            sentences[k] = e
+
+        if True and self.gt_check_consistency_only:
+            print('self.gt_check_consistency_only is **NOT** None. Good!!!')
+            k = 0
+            diff_set = set()
+            import pandas as pd
+            x = pd.read_csv(self.gt_check_consistency_only)
+            x = x["Content"].tolist()
+            for j, e in enumerate(x):
+                e = re.sub(r'\s+', ' ', e)
+                x[j] = e.strip()
+
+            for a, b in zip(sentences, x):
+                if a != b:
+                    split_a = a.split()
+                    diff_set.add(split_a[0])
+                    print('parsed:')
+                    print('a:' + '\n' + a)
+                    print('dataset:')
+                    print('b:' + '\n' + b)
+                    k += 1
+            if k > 0:
+                print('k: {}'.format(k))
+                print(diff_set)
+                print('len(diff_set): {}'.format(len(diff_set)))
+                assert False, 'error happens'
+        # debug - end
         tuple_vector = self.get_frequency_vector(sentences, self.rex,
                                                  self.delimeter)
 
