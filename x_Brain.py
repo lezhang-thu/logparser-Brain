@@ -73,6 +73,12 @@ class LogParser:
             diff_set = set()
             import pandas as pd
             x = pd.read_csv(self.gt_check_consistency_only)
+            # hack - start
+            if os.path.basename(self.gt_check_consistency_only
+                               ) == "BGL_full.log_structured.csv":
+                self.df_log = x[["Content"]]
+                sentences = self.df_log["Content"].tolist()
+            # hack - end
             x = x["Content"].tolist()
             for j, e in enumerate(x):
                 e = re.sub(r'\s+', ' ', e)
