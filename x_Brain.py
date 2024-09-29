@@ -140,6 +140,9 @@ class LogParser:
 
         self.df_log["EventId"] = EventID
         self.df_log["EventTemplate"] = template_
+        # hacker - start
+        self.df_log["LineId"] = list(range(1, len(self.df_log) + 1))
+        # hacker - end
         self.df_log.to_csv(os.path.join(self.savePath,
                                         self.logName + "_structured.csv"),
                            index=False)
