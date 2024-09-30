@@ -33,7 +33,12 @@ if __name__ == '__main__':
     if not os.path.exists(dir_name):
         os.makedirs(dir_name)
     pattern = os.path.join(sys.argv[1], '*structured.csv')
+    # debug - start - lezhang.thu
+    print('brain path: {}'.format(sys.argv[1]))
+    print('logppt path: {}'.format(sys.argv[2]))
+    # debug - end - lezhang.thu
     matching_files = glob.glob(pattern)
     for file_brain in matching_files:
         file_logppt = os.path.join(sys.argv[2], os.path.basename(file_brain))
+        assert os.path.isfile(file_logppt), "file NOT exists!!! error!!!"
         merge_results(file_brain, file_logppt, dir_name)
