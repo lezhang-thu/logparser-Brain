@@ -23,7 +23,7 @@ def merge_results(file_brain, file_logppt, dir_name):
     template_df.sort_values(
         by=['EventId'],
         inplace=True,
-        key=lambda x: x.str.extract('(\d+)').astype(int).squeeze())
+        key=lambda x: x.str.extract(r'(\d+)').astype(int).squeeze())
     x = '_'.join(file_name.split('_')[:-1] + ['templates.csv'])
     template_df.to_csv(os.path.join(dir_name, x), index=False)
 
