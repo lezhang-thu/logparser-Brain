@@ -40,5 +40,9 @@ if __name__ == '__main__':
     matching_files = glob.glob(pattern)
     for file_brain in matching_files:
         file_logppt = os.path.join(sys.argv[2], os.path.basename(file_brain))
-        assert os.path.isfile(file_logppt), "file NOT exists!!! error!!!"
-        merge_results(file_brain, file_logppt, dir_name)
+        #assert os.path.isfile(file_logppt), "file NOT exists!!! error!!!"
+        if not os.path.isfile(file_logppt):
+            print("file NOT exists!!! error!!!")
+            print("skipping {}...".format(os.path.basename(file_logppt)))
+        else:
+            merge_results(file_brain, file_logppt, dir_name)
